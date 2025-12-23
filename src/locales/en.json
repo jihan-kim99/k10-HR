@@ -1,0 +1,124 @@
+{
+  "brandName": "Global HR",
+  "nav": {
+    "solutions": "Solutions",
+    "process": "Process",
+    "costSavings": "Cost Savings",
+    "selectLanguage": "Select Language",
+    "startNow": "Start Now"
+  },
+  "hero": {
+    "badge": "Seoul • Tokyo • Shanghai • Singapore • Mumbai",
+    "title1": "Expand Business Freedom,",
+    "title2": "Break Free from Paperwork.",
+    "desc": "Stop struggling with compliance. K10 is your engine for growth and your shield against liability risk.",
+    "cta": {
+      "start": "Start Leading",
+      "view": "View Solutions"
+    }
+  },
+  "problem": {
+    "subtitle": "The Problem",
+    "title": "Administrative Minefield",
+    "risk": {
+      "title": "Compliance Risk",
+      "desc": "Labor laws change instantly. Fines don't wait. Without protection, your growth faces liability risks."
+    },
+    "admin": {
+      "title": "Administrative Overload",
+      "desc": "Stop drowning in paperwork. Your team needs leaders, not administrators. We handle the noise so you can focus on the core."
+    }
+  },
+  "solution": {
+    "shield": {
+      "title": "Strategic Shield",
+      "desc": "We don't just handle payroll. K10 is your engine for growth and your line of defense against liability risk. Experience ",
+      "highlight": "Zero Compliance Anxiety",
+      "items": {
+        "crossBorder": "Cross-border Compliance",
+        "visa": "E-7 Visa Mastery",
+        "multiLang": "Multi-language Support",
+        "audit": "Risk Audit"
+      }
+    },
+    "talent": {
+      "title": "Global Talent Management",
+      "desc": "Handling international hiring is more than just a contract. It requires cultural and legal precision."
+    },
+    "features": {
+      "visa": {
+        "title": "Visa & Immigration Mastery",
+        "desc": "Focus on ",
+        "highlight": "Specialized E-7 Visa",
+        "desc2": ". From application to approval, we manage the complex foreign professional visa process for you."
+      },
+      "tech": {
+        "title": "Tech-Driven Portal",
+        "desc": "Mobile-friendly portal with modern UI. Your global workforce can manage payroll and benefits in 7 languages."
+      },
+      "culture": {
+        "title": "Multicultural Integration",
+        "desc": "We are not just hiring; we integrate global talent into a unified corporate culture."
+      }
+    }
+  },
+  "process": {
+    "title": "Effortless Transition",
+    "desc": "Your 3-step journey from chaos to clarity.",
+    "steps": {
+      "1": {
+        "title": "Audit",
+        "desc": "We dig deep to identify health gaps and compliance risks in your current structure."
+      },
+      "2": {
+        "title": "Integrate",
+        "desc": "We sync our tech tools with yours and immediately take over the administrative burden."
+      },
+      "3": {
+        "title": "Lead",
+        "desc": "With the shield in place, you simply focus on vision and expanding the business."
+      }
+    }
+  },
+  "comparison": {
+    "title": "Cost of Manual HR",
+    "desc": "Based on a mid-sized company with 50+ international employees.",
+    "internal": "Internal Admin",
+    "internalCost": "k (~650k RMB)/year",
+    "risk": "Liability Risk",
+    "riskCost": "k (~540k RMB)/year",
+    "k10": "K10 Outsourcing",
+    "recommended": "Recommended",
+    "k10Cost": "k (~250k RMB)/year",
+    "savings": "Cost Savings",
+    "impact": {
+      "title": "Financial Impact",
+      "desc": "Switching to K10 not only reduces direct costs by over 50% compared to internal teams, but also significantly mitigates over k in potential legal liability risks."
+    }
+  },
+  "cta": {
+    "partner": "Exclusive Partner",
+    "spots": "Only 3 Spots Left",
+    "desc": "We accept only three new corporate partners per quarter to ensure 1:1 elite service quality.",
+    "apply": "Apply for Partnership",
+    "contact": "Contact Sales"
+  },
+  "footer": {
+    "desc": "Leading your growth. We handle the complexity. You control the vision.",
+    "cities": {
+      "seoul": "Seoul",
+      "tokyo": "Tokyo",
+      "shanghai": "Shanghai",
+      "singapore": "Singapore",
+      "mumbai": "Mumbai"
+    },
+    "company": "Company",
+    "about": "About Us",
+    "services": "Services",
+    "careers": "Careers",
+    "privacy": "Privacy Policy",
+    "contact": "Contact",
+    "location": "Seoul, South Korea",
+    "copyright": "K10 Global HR Solutions. All rights reserved."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "brandName": "Nhân sự Toàn cầu",
+  "nav": {
+    "solutions": "Giải pháp",
+    "process": "Quy trình",
+    "costSavings": "Tiết kiệm chi phí",
+    "selectLanguage": "Chọn ngôn ngữ",
+    "startNow": "Bắt đầu ngay"
+  },
+  "hero": {
+    "badge": "Seoul • Tokyo • Thượng Hải • Singapore • Mumbai",
+    "title1": "Mở rộng Tự do Kinh doanh,",
+    "title2": "Thoát khỏi Giấy tờ.",
+    "desc": "Ngừng vật lộn với sự tuân thủ. K10 là động cơ tăng trưởng và lá chắn chống lại rủi ro trách nhiệm pháp lý của bạn.",
+    "cta": {
+      "start": "Bắt đầu Lãnh đạo",
+      "view": "Xem Giải pháp"
+    }
+  },
+  "problem": {
+    "subtitle": "Vấn đề",
+    "title": "Bãi mìn Hành chính",
+    "risk": {
+      "title": "Rủi ro Tuân thủ",
+      "desc": "Luật lao động thay đổi ngay lập tức. Tiền phạt không chờ đợi. Nếu không có sự bảo vệ, sự tăng trưởng của bạn phải đối mặt với rủi ro trách nhiệm pháp lý."
+    },
+    "admin": {
+      "title": "Quá tải Hành chính",
+      "desc": "Ngừng chết đuối trong giấy tờ. Nhóm của bạn cần những người lãnh đạo, không phải quản trị viên. Chúng tôi xử lý tiếng ồn để bạn có thể tập trung vào cốt lõi."
+    }
+  },
+  "solution": {
+    "shield": {
+      "title": "Lá chắn Chiến lược",
+      "desc": "Chúng tôi không chỉ xử lý bảng lương. K10 là động cơ tăng trưởng và tuyến phòng thủ của bạn chống lại rủi ro trách nhiệm pháp lý. Trải nghiệm ",
+      "highlight": "Không Lo lắng về Tuân thủ",
+      "items": {
+        "crossBorder": "Tuân thủ Xuyên biên giới",
+        "visa": "Thành thạo Visa E-7",
+        "multiLang": "Hỗ trợ Đa ngôn ngữ",
+        "audit": "Kiểm toán Rủi ro"
+      }
+    },
+    "talent": {
+      "title": "Quản lý Tài năng Toàn cầu",
+      "desc": "Xử lý việc tuyển dụng quốc tế không chỉ là một hợp đồng. Nó đòi hỏi sự chính xác về văn hóa và pháp lý."
+    },
+    "features": {
+      "visa": {
+        "title": "Thành thạo Visa & Nhập cư",
+        "desc": "Tập trung vào ",
+        "highlight": "Visa E-7 Chuyên dụng",
+        "desc2": ". Từ nộp đơn đến phê duyệt, chúng tôi quản lý quy trình visa chuyên nghiệp nước ngoài phức tạp cho bạn."
+      },
+      "tech": {
+        "title": "Cổng thông tin Dựa trên Công nghệ",
+        "desc": "Cổng thông tin thân thiện với thiết bị di động với giao diện người dùng hiện đại. Lực lượng lao động toàn cầu của bạn có thể quản lý bảng lương và phúc lợi bằng 7 ngôn ngữ."
+      },
+      "culture": {
+        "title": "Hội nhập Đa văn hóa",
+        "desc": "Chúng tôi không chỉ tuyển dụng; chúng tôi tích hợp tài năng toàn cầu vào một văn hóa doanh nghiệp thống nhất."
+      }
+    }
+  },
+  "process": {
+    "title": "Chuyển đổi Dễ dàng",
+    "desc": "Hành trình 3 bước của bạn từ hỗn loạn đến rõ ràng.",
+    "steps": {
+      "1": {
+        "title": "Kiểm toán",
+        "desc": "Chúng tôi đào sâu để xác định các khoảng trống sức khỏe và rủi ro tuân thủ trong cấu trúc hiện tại của bạn."
+      },
+      "2": {
+        "title": "Tích hợp",
+        "desc": "Chúng tôi đồng bộ hóa các công cụ công nghệ của mình với của bạn và ngay lập tức tiếp quản gánh nặng hành chính."
+      },
+      "3": {
+        "title": "Lãnh đạo",
+        "desc": "Với lá chắn tại chỗ, bạn chỉ cần tập trung vào tầm nhìn và mở rộng kinh doanh."
+      }
+    }
+  },
+  "comparison": {
+    "title": "Chi phí Nhân sự Thủ công",
+    "desc": "Dựa trên một công ty quy mô vừa với hơn 50 nhân viên quốc tế.",
+    "internal": "Quản trị Nội bộ",
+    "internalCost": "k (~2.2 tỷ VND)/năm",
+    "risk": "Rủi ro Trách nhiệm Pháp lý",
+    "riskCost": "k (~1.8 tỷ VND)/năm",
+    "k10": "K10 Thuê ngoài",
+    "recommended": "Được đề xuất",
+    "k10Cost": "k (~850 triệu VND)/năm",
+    "savings": "Tiết kiệm Chi phí",
+    "impact": {
+      "title": "Tác động Tài chính",
+      "desc": "Chuyển sang K10 không chỉ giảm chi phí trực tiếp hơn 50% so với các nhóm nội bộ, mà còn giảm thiểu đáng kể hơn 75 nghìn đô la rủi ro trách nhiệm pháp lý tiềm ẩn."
+    }
+  },
+  "cta": {
+    "partner": "Đối tác Độc quyền",
+    "spots": "Chỉ còn 3 suất",
+    "desc": "Chúng tôi chỉ chấp nhận ba đối tác doanh nghiệp mới mỗi quý để đảm bảo chất lượng dịch vụ ưu tú 1:1.",
+    "apply": "Đăng ký Đối tác",
+    "contact": "Liên hệ Bán hàng"
+  },
+  "footer": {
+    "desc": "Dẫn dắt sự tăng trưởng của bạn. Chúng tôi xử lý sự phức tạp. Bạn kiểm soát tầm nhìn.",
+    "cities": {
+      "seoul": "Seoul",
+      "tokyo": "Tokyo",
+      "shanghai": "Thượng Hải",
+      "singapore": "Singapore",
+      "mumbai": "Mumbai"
+    },
+    "company": "Công ty",
+    "about": "Về chúng tôi",
+    "services": "Dịch vụ",
+    "careers": "Tuyển dụng",
+    "privacy": "Chính sách Bảo mật",
+    "contact": "Liên hệ",
+    "location": "Seoul, Hàn Quốc",
+    "copyright": "K10 Global HR Solutions. Bảo lưu mọi quyền."
+  }
+}
