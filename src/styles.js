@@ -1,0 +1,182 @@
+export const styles = {
+  wrapper: {
+    fontFamily:
+      '"Inter", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    color: "#1e293b",
+    backgroundColor: "white",
+    overflowX: "hidden",
+    minHeight: "100vh",
+  },
+  container: {
+    maxWidth: "1200px",
+    margin: "0 auto",
+    padding: "0 24px",
+  },
+  navContent: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  logoContainer: {
+    display: "flex",
+    alignItems: "center",
+    gap: "8px",
+  },
+  logoBox: {
+    width: "40px",
+    height: "40px",
+    backgroundColor: "#1e3a8a",
+    borderRadius: "0 12px 0 12px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  logoText: {
+    color: "white",
+    fontWeight: "bold",
+    fontSize: "1.25rem",
+  },
+  brandName: {
+    fontWeight: "bold",
+    fontSize: "1.25rem",
+    letterSpacing: "-0.025em",
+    // Color handled by class for responsiveness
+  },
+  langButton: {
+    display: "flex",
+    alignItems: "center",
+    gap: "4px",
+    padding: "4px 12px",
+    borderRadius: "9999px",
+    backgroundColor: "transparent", // Default, overridden in component
+    color: "inherit", // Default
+    border: "none",
+    cursor: "pointer",
+    fontSize: "0.875rem",
+    fontWeight: "600",
+  },
+  dropdown: {
+    position: "absolute",
+    top: "100%",
+    right: 0,
+    marginTop: "8px",
+    width: "192px",
+    backgroundColor: "white",
+    borderRadius: "12px",
+    boxShadow:
+      "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+    border: "1px solid #f1f5f9",
+    padding: "8px 0",
+    overflow: "hidden",
+    zIndex: 60,
+  },
+  hero: {
+    position: "relative",
+    minHeight: "120vh",
+    display: "flex",
+    alignItems: "center",
+    paddingTop: "80px",
+    backgroundColor: "#0f172a",
+    overflow: "hidden",
+  },
+  heroBg: {
+    position: "absolute",
+    inset: 0,
+    zIndex: 0,
+  },
+  heroImg: {
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    opacity: 0.6,
+  },
+  heroOverlay: {
+    position: "absolute",
+    inset: 0,
+    background:
+      "linear-gradient(to bottom, rgba(30, 58, 138, 0.4), rgba(15, 23, 42, 0.8), #0f172a)",
+  },
+  heroContent: {
+    position: "relative",
+    zIndex: 20,
+    maxWidth: "896px",
+  },
+  badge: {
+    display: "inline-block",
+    padding: "4px 12px",
+    marginBottom: "24px",
+    border: "1px solid rgba(96, 165, 250, 0.3)",
+    borderRadius: "9999px",
+    backgroundColor: "rgba(30, 58, 138, 0.3)",
+    backdropFilter: "blur(4px)",
+  },
+  badgeText: {
+    color: "#93c5fd",
+    fontSize: "0.875rem",
+    fontWeight: "600",
+    letterSpacing: "0.05em",
+    textTransform: "uppercase",
+  },
+  heroTitle: {
+    fontWeight: "bold",
+    color: "white",
+    marginBottom: "24px",
+    lineHeight: 1.1,
+  },
+  gradientText: {
+    background: "linear-gradient(to right, #60a5fa, #67e8f9)",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+  },
+  heroDesc: {
+    color: "#cbd5e1",
+    marginBottom: "40px",
+    maxWidth: "672px",
+    lineHeight: 1.6,
+  },
+  buttonGroup: {
+    display: "flex",
+    gap: "16px",
+    flexWrap: "wrap",
+  },
+  section: {
+    // Padding handled by CSS class
+  },
+  sectionTitle: {
+    fontSize: "2.25rem",
+    fontWeight: "bold",
+    color: "#0f172a",
+    marginBottom: "16px",
+  },
+  subTitle: {
+    fontSize: "0.875rem",
+    fontWeight: "bold",
+    color: "#ef4444",
+    textTransform: "uppercase",
+    letterSpacing: "0.1em",
+    marginBottom: "8px",
+  },
+  card: {
+    backgroundColor: "white",
+    padding: "40px",
+    borderRadius: "16px",
+    boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)",
+    border: "1px solid #f1f5f9",
+    transition: "transform 0.3s ease",
+  },
+  iconBox: {
+    width: "56px",
+    height: "56px",
+    borderRadius: "12px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: "24px",
+  },
+  footer: {
+    backgroundColor: "#020617",
+    color: "#94a3b8",
+    padding: "64px 0",
+    borderTop: "1px solid #0f172a",
+  },
+};

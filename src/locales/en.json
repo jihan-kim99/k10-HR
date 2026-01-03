@@ -1,110 +1,212 @@
 {
-  "brandName": "Global HR",
+  "brandName": "Workforce Company",
   "nav": {
-    "solutions": "Solutions",
+    "solutions": "Services",
     "process": "Process",
-    "costSavings": "Cost Savings",
-    "selectLanguage": "Select Language",
-    "startNow": "Start Now"
+    "costSavings": "Benefits",
+    "selectLanguage": "Language",
+    "startNow": "Get Started",
+    "forWorkers": "For Workers",
+    "forCompanies": "For Companies",
+    "contact": "Contact"
   },
   "hero": {
-    "badge": "Seoul • Tokyo • Shanghai • Singapore • Mumbai",
-    "title1": "Expand Business Freedom,",
-    "title2": "Break Free from Paperwork.",
-    "desc": "Stop struggling with compliance. K10 is your engine for growth and your shield against liability risk.",
+    "badge": "Company Recruitment • Foreign Job Seekers • Visa • Settlement",
+    "title1": "Connecting Companies and Foreign Talents,",
+    "title2": "K10 Workforce Company's Expert Services.",
+    "desc": "From foreign talent recruitment and visa management for companies to job support in Korea, visa renewal, permanent residency procedures, and comfortable housing support for foreigners. We provide comprehensive workforce solutions for both companies and foreigners.",
     "cta": {
-      "start": "Start Leading",
-      "view": "View Solutions"
+      "start": "Start Consultation",
+      "view": "View Services"
     }
   },
   "problem": {
-    "subtitle": "The Problem",
-    "title": "Administrative Minefield",
+    "subtitle": "Challenges",
+    "title": "Solving Workforce Issues for Companies and Foreigners",
     "risk": {
-      "title": "Compliance Risk",
-      "desc": "Labor laws change instantly. Fines don't wait. Without protection, your growth faces liability risks."
+      "title": "Company Talent Shortage and Foreign Job Difficulties",
+      "desc": "Companies struggle to find global talent, while foreigners face complexities in Korean job applications and visa procedures."
     },
     "admin": {
-      "title": "Administrative Overload",
-      "desc": "Stop drowning in paperwork. Your team needs leaders, not administrators. We handle the noise so you can focus on the core."
+      "title": "Administrative and Life Barriers",
+      "desc": "Companies bear visa management burdens, foreigners struggle with language and settlement issues in Korean life."
     }
   },
   "solution": {
     "shield": {
-      "title": "Strategic Shield",
-      "desc": "We don't just handle payroll. K10 is your engine for growth and your line of defense against liability risk. Experience ",
-      "highlight": "Zero Compliance Anxiety",
+      "title": "Expert Services for Both Companies and Individuals",
+      "desc": "Specializing in foreign recruitment and visa management for companies, job support and administrative agency for foreigners. We take full responsibility for ",
+      "highlight": "all procedures",
       "items": {
-        "crossBorder": "Cross-border Compliance",
-        "visa": "E-7 Visa Mastery",
-        "multiLang": "Multi-language Support",
-        "audit": "Risk Audit"
+        "crossBorder": "Companies: Foreign Recruitment",
+        "visa": "Foreigners: Job Support",
+        "multiLang": "Visa Renewal/PR",
+        "audit": "Settlement & Life Support"
       }
     },
     "talent": {
-      "title": "Global Talent Management",
-      "desc": "Handling international hiring is more than just a contract. It requires cultural and legal precision."
+      "title": "Success Partner for Companies and Talents",
+      "desc": "We provide optimal matching and support for company growth and successful Korean life for foreign talents. We prioritize people and companies over paperwork."
     },
     "features": {
       "visa": {
-        "title": "Visa & Immigration Mastery",
-        "desc": "Focus on ",
-        "highlight": "Specialized E-7 Visa",
-        "desc2": ". From application to approval, we manage the complex foreign professional visa process for you."
+        "title": "Company Recruitment & Foreign Job Support",
+        "desc": "From global talent recruitment for companies to job placement in Korea for foreigners, we provide ",
+        "highlight": "comprehensive workforce services",
+        "desc2": "."
       },
       "tech": {
-        "title": "Tech-Driven Portal",
-        "desc": "Mobile-friendly portal with modern UI. Your global workforce can manage payroll and benefits in 7 languages."
+        "title": "Visa & Admin Management",
+        "desc": "Reducing visa management burdens for companies, experts handle visa renewals and permanent residency procedures for foreigners."
       },
       "culture": {
-        "title": "Multicultural Integration",
-        "desc": "We are not just hiring; we integrate global talent into a unified corporate culture."
+        "title": "Settlement & Life Support",
+        "desc": "We provide housing support, Korean language education links, and multi-language interpretation to help foreigners adapt to life in Korea."
       }
     }
   },
   "process": {
-    "title": "Effortless Transition",
-    "desc": "Your 3-step journey from chaos to clarity.",
+    "title": "Simple Process",
+    "desc": "3-step service for companies and foreigners.",
     "steps": {
       "1": {
-        "title": "Audit",
-        "desc": "We dig deep to identify health gaps and compliance risks in your current structure."
+        "title": "Consultation & Diagnosis",
+        "desc": "We identify company recruitment needs and foreigner job/visa situations, proposing customized solutions."
       },
       "2": {
-        "title": "Integrate",
-        "desc": "We sync our tech tools with yours and immediately take over the administrative burden."
+        "title": "Matching & Admin Processing",
+        "desc": "We optimally match companies and foreigners, and experts handle visa and administrative tasks."
       },
       "3": {
-        "title": "Lead",
-        "desc": "With the shield in place, you simply focus on vision and expanding the business."
+        "title": "Ongoing Support",
+        "desc": "We provide continuous post-employment management, visa expiration monitoring, and life support."
       }
     }
   },
   "comparison": {
-    "title": "Cost of Manual HR",
-    "desc": "Based on a mid-sized company with 50+ international employees.",
-    "internal": "Internal Admin",
-    "internalCost": "k (~650k RMB)/year",
-    "risk": "Liability Risk",
-    "riskCost": "k (~540k RMB)/year",
-    "k10": "K10 Outsourcing",
+    "title": "Difficulties of Solving Alone",
+    "desc": "Challenges faced when companies and foreigners solve workforce issues individually.",
+    "internal": "Individual Processing",
+    "internalCost": "Time & Cost Burden",
+    "risk": "Recruitment/Job Failure Risk",
+    "riskCost": "Inefficiency & Instability",
+    "k10": "K10 Workforce Comprehensive Service",
     "recommended": "Recommended",
-    "k10Cost": "k (~250k RMB)/year",
-    "savings": "Cost Savings",
+    "k10Cost": "Reasonable Cost",
+    "savings": "Efficient Solution",
     "impact": {
-      "title": "Financial Impact",
-      "desc": "Switching to K10 not only reduces direct costs by over 50% compared to internal teams, but also significantly mitigates over k in potential legal liability risks."
+      "title": "Company Growth and Personal Success",
+      "desc": "With K10, companies can secure excellent talent, and foreigners can enjoy stable life in Korea."
     }
   },
   "cta": {
-    "partner": "Exclusive Partner",
-    "spots": "Only 3 Spots Left",
-    "desc": "We accept only three new corporate partners per quarter to ensure 1:1 elite service quality.",
-    "apply": "Apply for Partnership",
-    "contact": "Contact Sales"
+    "partner": "Trusted Partner",
+    "spots": "Booking Consultation",
+    "desc": "Experience K10 Workforce Company's services for both companies and foreigners now.",
+    "apply": "Apply for Consultation",
+    "contact": "Contact Us"
   },
   "footer": {
-    "desc": "Leading your growth. We handle the complexity. You control the vision.",
+    "desc": "We cheer for company success and foreigners' dreams. From recruitment to settlement, K10 is with you.",
+    "cities": {
+      "seoul": "Seoul",
+      "tokyo": "Tokyo",
+      "shanghai": "Shanghai",
+      "singapore": "Singapore",
+      "mumbai": "Mumbai"
+    },
+    "company": "K10 Workforce Company",
+    "about": "About Us",
+    "services": "Company/Foreigner Services",
+    "careers": "Careers",
+    "privacy": "Privacy Policy",
+    "contact": "Contact",
+    "location": "Seoul, South Korea",
+    "copyright": "K10 Workforce Company. All rights reserved."
+  },
+  "jobSeekers": {
+    "header": {
+      "subtitle": "FOR JOB SEEKERS",
+      "title": "Your Gateway to Career Opportunities in Korea",
+      "description": "We help job seekers navigate every step of working in Korea, from finding the right job to settling in"
+    },
+    "jobSearch": {
+      "subtitle": "JOB SEARCH",
+      "title": "Find Your Dream Job in Korea",
+      "description": "Navigating the Korean job market can be overwhelming for foreigners. We connect you with verified opportunities that match your skills and experience.",
+      "benefitsTitle": "This is what's in it for the job seekers",
+      "benefits": {
+        "matching": "Personalized job matching based on your profile",
+        "resume": "Resume optimization for Korean employers",
+        "interview": "Interview preparation and language support",
+        "negotiation": "Contract negotiation assistance"
+      }
+    },
+    "visaServices": {
+      "subtitle": "VISA SERVICES",
+      "title": "Navigate Korean Immigration with Confidence",
+      "description": "Korean visa processes can be complex and time-consuming. Our immigration experts handle everything from application to approval.",
+      "benefits": {
+        "application": "Complete visa application assistance",
+        "documents": "Document preparation and verification",
+        "appointment": "Immigration office appointment scheduling",
+        "extension": "Extension and renewal support"
+      }
+    },
+    "housing": {
+      "subtitle": "HOUSING",
+      "title": "Secure Your Home in Korea",
+      "description": "Finding suitable housing in Korea can be challenging due to language barriers and local regulations. We help you find the perfect place to live.",
+      "benefits": {
+        "properties": "Verified rental properties in prime locations",
+        "translation": "Lease agreement translation and review",
+        "utilities": "Utility setup and registration assistance",
+        "coordination": "Move-in coordination and local orientation"
+      }
+    }
+  },
+  "companies": {
+    "header": {
+      "subtitle": "FOR COMPANIES",
+      "title": "Find the Perfect Talent for Your Team",
+      "description": "We help companies navigate the complexities of hiring international talent in Korea"
+    },
+    "talentAcquisition": {
+      "subtitle": "TALENT ACQUISITION",
+      "title": "Access Global Talent Pool",
+      "description": "Find skilled professionals who are ready to work in Korea. We handle the entire recruitment process from screening to onboarding.",
+      "benefits": {
+        "screening": "Pre-screened and verified candidates",
+        "assessment": "Skills assessment and verification",
+        "cultural": "Cultural fit evaluation",
+        "hiring": "Streamlined hiring process"
+      }
+    },
+    "visaImmigration": {
+      "subtitle": "VISA & IMMIGRATION",
+      "title": "Seamless Work Permit Processing",
+      "description": "Complete visa processing and work permit assistance. We ensure your new hires can legally work in Korea without delays.",
+      "benefits": {
+        "support": "Complete visa application support",
+        "coordination": "Work permit coordination",
+        "preparation": "Documentation preparation and review",
+        "compliance": "Immigration compliance guidance"
+      }
+    },
+    "onboarding": {
+      "subtitle": "ONBOARDING SUPPORT",
+      "title": "Smooth Integration for Your Team",
+      "description": "Comprehensive onboarding programs to help international employees integrate smoothly into Korean workplace culture.",
+      "benefits": {
+        "orientation": "Cultural orientation programs",
+        "language": "Language support services",
+        "integration": "Workplace integration assistance",
+        "consultation": "Ongoing support and consultation"
+      }
+    }
+  },
+  "footer": {
+    "desc": "K10 Workforce Company connects companies with global talent and supports foreigners' success in Korea.",
     "cities": {
       "seoul": "Seoul",
       "tokyo": "Tokyo",
@@ -119,6 +221,36 @@
     "privacy": "Privacy Policy",
     "contact": "Contact",
     "location": "Seoul, South Korea",
-    "copyright": "K10 Global HR Solutions. All rights reserved."
+    "copyright": "K10 Workforce Company. All rights reserved."
+  },
+  "contact": {
+    "subtitle": "GET IN TOUCH",
+    "title": "Ready to Get Started?",
+    "desc": "Contact our experts to discuss your international workforce needs",
+    "form": {
+      "heading": "Send us a message",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "company": "Company",
+      "message": "Tell us about your needs...",
+      "submit": "Send Message"
+    },
+    "info": {
+      "heading": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "office": "Office",
+      "address": "123 Business Tower, Gangnam-gu, Seoul, South Korea"
+    },
+    "hours": {
+      "heading": "Office Hours",
+      "weekday": "Monday - Friday",
+      "weekdayTime": "9:00 AM - 6:00 PM KST",
+      "saturday": "Saturday",
+      "saturdayTime": "10:00 AM - 2:00 PM KST",
+      "sunday": "Sunday",
+      "closed": "Closed"
+    }
   }
 }

@@ -1,110 +1,212 @@
 {
-  "brandName": "Nhân sự Toàn cầu",
+  "brandName": "Công ty Nhân lực K10",
   "nav": {
-    "solutions": "Giải pháp",
+    "solutions": "Dịch vụ",
     "process": "Quy trình",
-    "costSavings": "Tiết kiệm chi phí",
+    "costSavings": "Lợi ích",
     "selectLanguage": "Chọn ngôn ngữ",
-    "startNow": "Bắt đầu ngay"
+    "startNow": "Bắt đầu tư vấn",
+    "forWorkers": "Dành cho Người lao động",
+    "forCompanies": "Dành cho Công ty",
+    "contact": "Liên hệ"
   },
   "hero": {
-    "badge": "Seoul • Tokyo • Thượng Hải • Singapore • Mumbai",
-    "title1": "Mở rộng Tự do Kinh doanh,",
-    "title2": "Thoát khỏi Giấy tờ.",
-    "desc": "Ngừng vật lộn với sự tuân thủ. K10 là động cơ tăng trưởng và lá chắn chống lại rủi ro trách nhiệm pháp lý của bạn.",
+    "badge": "Tuyển dụng Công ty • Người tìm việc Nước ngoài • Visa • An cư",
+    "title1": "Kết nối Công ty và Nhân tài Nước ngoài,",
+    "title2": "Dịch vụ Chuyên nghiệp của Công ty Nhân lực K10.",
+    "desc": "Từ tuyển dụng nhân tài nước ngoài và quản lý visa cho công ty, đến hỗ trợ tìm việc tại Hàn Quốc, gia hạn visa, thủ tục cư trú vĩnh viễn, hỗ trợ môi trường sống thoải mái cho người nước ngoài. Chúng tôi cung cấp giải pháp nhân lực toàn diện cho cả công ty và người nước ngoài.",
     "cta": {
-      "start": "Bắt đầu Lãnh đạo",
-      "view": "Xem Giải pháp"
+      "start": "Bắt đầu Tư vấn",
+      "view": "Xem Dịch vụ"
     }
   },
   "problem": {
-    "subtitle": "Vấn đề",
-    "title": "Bãi mìn Hành chính",
+    "subtitle": "Thách thức",
+    "title": "Giải quyết Vấn đề Nhân lực cho Công ty và Người Nước ngoài",
     "risk": {
-      "title": "Rủi ro Tuân thủ",
-      "desc": "Luật lao động thay đổi ngay lập tức. Tiền phạt không chờ đợi. Nếu không có sự bảo vệ, sự tăng trưởng của bạn phải đối mặt với rủi ro trách nhiệm pháp lý."
+      "title": "Thiếu hụt Nhân tài Công ty và Khó khăn Tìm việc Người Nước ngoài",
+      "desc": "Công ty gặp khó khăn trong việc tìm nhân tài toàn cầu, trong khi người nước ngoài đối mặt với sự phức tạp của việc tìm việc và thủ tục visa tại Hàn Quốc."
     },
     "admin": {
-      "title": "Quá tải Hành chính",
-      "desc": "Ngừng chết đuối trong giấy tờ. Nhóm của bạn cần những người lãnh đạo, không phải quản trị viên. Chúng tôi xử lý tiếng ồn để bạn có thể tập trung vào cốt lõi."
+      "title": "Rào cản Hành chính và Cuộc sống",
+      "desc": "Công ty chịu gánh nặng quản lý visa, người nước ngoài gặp khó khăn với ngôn ngữ và vấn đề an cư trong cuộc sống Hàn Quốc."
     }
   },
   "solution": {
     "shield": {
-      "title": "Lá chắn Chiến lược",
-      "desc": "Chúng tôi không chỉ xử lý bảng lương. K10 là động cơ tăng trưởng và tuyến phòng thủ của bạn chống lại rủi ro trách nhiệm pháp lý. Trải nghiệm ",
-      "highlight": "Không Lo lắng về Tuân thủ",
+      "title": "Dịch vụ Chuyên nghiệp cho Cả Công ty và Cá nhân",
+      "desc": "Chuyên về tuyển dụng nước ngoài và quản lý visa cho công ty, hỗ trợ tìm việc và đại lý hành chính cho người nước ngoài. Chúng tôi chịu trách nhiệm đầy đủ về",
+      "highlight": "tất cả các thủ tục",
       "items": {
-        "crossBorder": "Tuân thủ Xuyên biên giới",
-        "visa": "Thành thạo Visa E-7",
-        "multiLang": "Hỗ trợ Đa ngôn ngữ",
-        "audit": "Kiểm toán Rủi ro"
+        "crossBorder": "Công ty: Tuyển dụng Nước ngoài",
+        "visa": "Người Nước ngoài: Hỗ trợ Tìm việc",
+        "multiLang": "Gia hạn Visa/Cư trú Vĩnh viễn",
+        "audit": "Hỗ trợ An cư & Cuộc sống"
       }
     },
     "talent": {
-      "title": "Quản lý Tài năng Toàn cầu",
-      "desc": "Xử lý việc tuyển dụng quốc tế không chỉ là một hợp đồng. Nó đòi hỏi sự chính xác về văn hóa và pháp lý."
+      "title": "Đối tác Thành công cho Công ty và Nhân tài",
+      "desc": "Chúng tôi cung cấp sự kết hợp tối ưu và hỗ trợ cho sự phát triển của công ty và thành công trong cuộc sống Hàn Quốc của nhân tài nước ngoài. Chúng tôi ưu tiên con người và công ty hơn giấy tờ."
     },
     "features": {
       "visa": {
-        "title": "Thành thạo Visa & Nhập cư",
-        "desc": "Tập trung vào ",
-        "highlight": "Visa E-7 Chuyên dụng",
-        "desc2": ". Từ nộp đơn đến phê duyệt, chúng tôi quản lý quy trình visa chuyên nghiệp nước ngoài phức tạp cho bạn."
+        "title": "Tuyển dụng Công ty & Hỗ trợ Tìm việc Người Nước ngoài",
+        "desc": "Từ tuyển dụng nhân tài toàn cầu cho công ty đến giới thiệu việc làm tại Hàn Quốc cho người nước ngoài, chúng tôi cung cấp",
+        "highlight": "dịch vụ nhân lực toàn diện",
+        "desc2": "."
       },
       "tech": {
-        "title": "Cổng thông tin Dựa trên Công nghệ",
-        "desc": "Cổng thông tin thân thiện với thiết bị di động với giao diện người dùng hiện đại. Lực lượng lao động toàn cầu của bạn có thể quản lý bảng lương và phúc lợi bằng 7 ngôn ngữ."
+        "title": "Quản lý Visa & Hành chính",
+        "desc": "Giảm gánh nặng quản lý visa cho công ty, chuyên gia xử lý gia hạn visa và thủ tục cư trú vĩnh viễn cho người nước ngoài."
       },
       "culture": {
-        "title": "Hội nhập Đa văn hóa",
-        "desc": "Chúng tôi không chỉ tuyển dụng; chúng tôi tích hợp tài năng toàn cầu vào một văn hóa doanh nghiệp thống nhất."
+        "title": "Hỗ trợ An cư & Cuộc sống",
+        "desc": "Chúng tôi cung cấp hỗ trợ nhà ở, liên kết giáo dục tiếng Hàn, và phiên dịch đa ngôn ngữ để giúp người nước ngoài thích nghi với cuộc sống Hàn Quốc."
       }
     }
   },
   "process": {
-    "title": "Chuyển đổi Dễ dàng",
-    "desc": "Hành trình 3 bước của bạn từ hỗn loạn đến rõ ràng.",
+    "title": "Quy trình Đơn giản",
+    "desc": "Dịch vụ 3 bước cho công ty và người nước ngoài.",
     "steps": {
       "1": {
-        "title": "Kiểm toán",
-        "desc": "Chúng tôi đào sâu để xác định các khoảng trống sức khỏe và rủi ro tuân thủ trong cấu trúc hiện tại của bạn."
+        "title": "Tư vấn & Chẩn đoán",
+        "desc": "Chúng tôi xác định nhu cầu tuyển dụng của công ty và tình hình tìm việc/visa của người nước ngoài, đề xuất giải pháp tùy chỉnh."
       },
       "2": {
-        "title": "Tích hợp",
-        "desc": "Chúng tôi đồng bộ hóa các công cụ công nghệ của mình với của bạn và ngay lập tức tiếp quản gánh nặng hành chính."
+        "title": "Ghép đôi & Xử lý Hành chính",
+        "desc": "Chúng tôi ghép đôi công ty và người nước ngoài một cách tối ưu, và chuyên gia xử lý visa và công việc hành chính."
       },
       "3": {
-        "title": "Lãnh đạo",
-        "desc": "Với lá chắn tại chỗ, bạn chỉ cần tập trung vào tầm nhìn và mở rộng kinh doanh."
+        "title": "Hỗ trợ Liên tục",
+        "desc": "Chúng tôi cung cấp quản lý sau khi tuyển dụng, giám sát hết hạn visa, và hỗ trợ cuộc sống."
       }
     }
   },
   "comparison": {
-    "title": "Chi phí Nhân sự Thủ công",
-    "desc": "Dựa trên một công ty quy mô vừa với hơn 50 nhân viên quốc tế.",
-    "internal": "Quản trị Nội bộ",
-    "internalCost": "k (~2.2 tỷ VND)/năm",
-    "risk": "Rủi ro Trách nhiệm Pháp lý",
-    "riskCost": "k (~1.8 tỷ VND)/năm",
-    "k10": "K10 Thuê ngoài",
-    "recommended": "Được đề xuất",
-    "k10Cost": "k (~850 triệu VND)/năm",
-    "savings": "Tiết kiệm Chi phí",
+    "title": "Khó khăn khi Tự giải quyết",
+    "desc": "Thách thức mà công ty và người nước ngoài gặp phải khi giải quyết vấn đề nhân lực riêng lẻ.",
+    "internal": "Xử lý Cá nhân",
+    "internalCost": "Gánh nặng Thời gian & Chi phí",
+    "risk": "Rủi ro Thất bại Tuyển dụng/Tìm việc",
+    "riskCost": "Không hiệu quả & Không ổn định",
+    "k10": "Dịch vụ Toàn diện K10 Nhân lực",
+    "recommended": "Khuyến nghị",
+    "k10Cost": "Chi phí Hợp lý",
+    "savings": "Giải pháp Hiệu quả",
     "impact": {
-      "title": "Tác động Tài chính",
-      "desc": "Chuyển sang K10 không chỉ giảm chi phí trực tiếp hơn 50% so với các nhóm nội bộ, mà còn giảm thiểu đáng kể hơn 75 nghìn đô la rủi ro trách nhiệm pháp lý tiềm ẩn."
+      "title": "Sự Phát triển Công ty và Thành công Cá nhân",
+      "desc": "Với K10, công ty có thể đảm bảo nhân tài xuất sắc, và người nước ngoài có thể tận hưởng cuộc sống ổn định tại Hàn Quốc."
     }
   },
   "cta": {
-    "partner": "Đối tác Độc quyền",
-    "spots": "Chỉ còn 3 suất",
-    "desc": "Chúng tôi chỉ chấp nhận ba đối tác doanh nghiệp mới mỗi quý để đảm bảo chất lượng dịch vụ ưu tú 1:1.",
-    "apply": "Đăng ký Đối tác",
-    "contact": "Liên hệ Bán hàng"
+    "partner": "Đối tác Đáng tin cậy",
+    "spots": "Đặt lịch Tư vấn",
+    "desc": "Trải nghiệm dịch vụ của Công ty Nhân lực K10 cho cả công ty và người nước ngoài ngay bây giờ.",
+    "apply": "Đăng ký Tư vấn",
+    "contact": "Liên hệ Chúng tôi"
   },
   "footer": {
-    "desc": "Dẫn dắt sự tăng trưởng của bạn. Chúng tôi xử lý sự phức tạp. Bạn kiểm soát tầm nhìn.",
+    "desc": "Chúng tôi cổ vũ cho sự thành công của công ty và giấc mơ của người nước ngoài. Từ tuyển dụng đến an cư, K10 cùng bạn.",
+    "cities": {
+      "seoul": "Seoul",
+      "tokyo": "Tokyo",
+      "shanghai": "Thượng Hải",
+      "singapore": "Singapore",
+      "mumbai": "Mumbai"
+    },
+    "company": "Công ty Nhân lực K10",
+    "about": "Về Chúng tôi",
+    "services": "Dịch vụ Công ty/Người Nước ngoài",
+    "careers": "Tuyển dụng",
+    "privacy": "Chính sách Bảo mật",
+    "contact": "Liên hệ",
+    "location": "Seoul, Hàn Quốc",
+    "copyright": "Công ty Nhân lực K10. Bảo lưu mọi quyền."
+  },
+  "jobSeekers": {
+    "header": {
+      "subtitle": "DÀNH CHO NGƯỜI TÌM VIỆC",
+      "title": "Cổng Vào Cơ Hội Nghề Nghiệp Tại Hàn Quốc",
+      "description": "Chúng tôi giúp người tìm việc điều hướng mọi bước làm việc tại Hàn Quốc, từ tìm công việc phù hợp đến an cư"
+    },
+    "jobSearch": {
+      "subtitle": "TÌM VIỆC",
+      "title": "Tìm Công Việc Mơ Ước Của Bạn Tại Hàn Quốc",
+      "description": "Điều hướng thị trường việc làm Hàn Quốc có thể choáng ngợp đối với người nước ngoài. Chúng tôi kết nối bạn với các cơ hội đã được xác minh phù hợp với kỹ năng và kinh nghiệm của bạn.",
+      "benefitsTitle": "Lợi ích dành cho người tìm việc",
+      "benefits": {
+        "matching": "Ghép đôi công việc được cá nhân hóa dựa trên hồ sơ của bạn",
+        "resume": "Tối ưu hóa sơ yếu lý lịch cho nhà tuyển dụng Hàn Quốc",
+        "interview": "Chuẩn bị phỏng vấn và hỗ trợ ngôn ngữ",
+        "negotiation": "Hỗ trợ đàm phán hợp đồng"
+      }
+    },
+    "visaServices": {
+      "subtitle": "DỊCH VỤ VISA",
+      "title": "Điều Hướng Nhập Cư Hàn Quốc Với Tự Tin",
+      "description": "Quy trình xin visa Hàn Quốc có thể phức tạp và mất thời gian. Các chuyên gia nhập cư của chúng tôi xử lý mọi thứ từ đăng ký đến phê duyệt.",
+      "benefits": {
+        "application": "Hỗ trợ đăng ký visa hoàn chỉnh",
+        "documents": "Chuẩn bị và xác minh tài liệu",
+        "appointment": "Sắp xếp cuộc hẹn văn phòng nhập cư",
+        "extension": "Hỗ trợ gia hạn và gia hạn"
+      }
+    },
+    "housing": {
+      "subtitle": "NHÀ Ở",
+      "title": "Đảm Bảo Ngôi Nhà Của Bạn Tại Hàn Quốc",
+      "description": "Tìm nhà ở phù hợp tại Hàn Quốc có thể khó khăn do rào cản ngôn ngữ và quy định địa phương. Chúng tôi giúp bạn tìm nơi sống hoàn hảo.",
+      "benefits": {
+        "properties": "Bất động sản cho thuê đã được xác minh tại các vị trí tốt",
+        "translation": "Dịch và xem xét hợp đồng thuê nhà",
+        "utilities": "Hỗ trợ thiết lập và đăng ký tiện ích",
+        "coordination": "Phối hợp chuyển vào và định hướng địa phương"
+      }
+    }
+  },
+  "companies": {
+    "header": {
+      "subtitle": "DÀNH CHO CÔNG TY",
+      "title": "Tìm Nhân Tài Hoàn Hảo Cho Đội Ngũ Của Bạn",
+      "description": "Chúng tôi giúp các công ty điều hướng sự phức tạp của việc tuyển dụng nhân tài quốc tế tại Hàn Quốc"
+    },
+    "talentAcquisition": {
+      "subtitle": "TUYỂN DỤNG NHÂN TÀI",
+      "title": "Truy Cập Nguồn Nhân Tài Toàn Cầu",
+      "description": "Tìm các chuyên gia có kỹ năng sẵn sàng làm việc tại Hàn Quốc. Chúng tôi xử lý toàn bộ quy trình tuyển dụng từ sàng lọc đến giới thiệu.",
+      "benefits": {
+        "screening": "Ứng viên đã được sàng lọc và xác minh trước",
+        "assessment": "Đánh giá và xác minh kỹ năng",
+        "cultural": "Đánh giá sự phù hợp văn hóa",
+        "hiring": "Quy trình tuyển dụng được tinh giản"
+      }
+    },
+    "visaImmigration": {
+      "subtitle": "VISA VÀ NHẬP CƯ",
+      "title": "Xử Lý Giấy Phép Lao Động Liền Mạch",
+      "description": "Xử lý visa hoàn chỉnh và hỗ trợ giấy phép lao động. Chúng tôi đảm bảo nhân viên mới của bạn có thể làm việc hợp pháp tại Hàn Quốc không bị trì hoãn.",
+      "benefits": {
+        "support": "Hỗ trợ đăng ký visa hoàn chỉnh",
+        "coordination": "Phối hợp giấy phép lao động",
+        "preparation": "Chuẩn bị và xem xét tài liệu",
+        "compliance": "Hướng dẫn tuân thủ nhập cư"
+      }
+    },
+    "onboarding": {
+      "subtitle": "HỖ TRỢ GIỚI THIỆU",
+      "title": "Tích Hợp Trơn Tru Cho Đội Ngũ Của Bạn",
+      "description": "Chương trình giới thiệu toàn diện để giúp nhân viên quốc tế hòa nhập trơn tru vào văn hóa nơi làm việc Hàn Quốc.",
+      "benefits": {
+        "orientation": "Chương trình định hướng văn hóa",
+        "language": "Dịch vụ hỗ trợ ngôn ngữ",
+        "integration": "Hỗ trợ tích hợp nơi làm việc",
+        "consultation": "Hỗ trợ liên tục và tư vấn"
+      }
+    }
+  },
+  "footer": {
+    "desc": "Công ty Nhân lực K10 kết nối doanh nghiệp với nhân tài toàn cầu và hỗ trợ người nước ngoài thành công tại Hàn Quốc.",
     "cities": {
       "seoul": "Seoul",
       "tokyo": "Tokyo",
@@ -116,9 +218,39 @@
     "about": "Về chúng tôi",
     "services": "Dịch vụ",
     "careers": "Tuyển dụng",
-    "privacy": "Chính sách Bảo mật",
+    "privacy": "Chính sách bảo mật",
     "contact": "Liên hệ",
     "location": "Seoul, Hàn Quốc",
-    "copyright": "K10 Global HR Solutions. Bảo lưu mọi quyền."
+    "copyright": "Công ty Nhân lực K10. Bảo lưu mọi quyền."
+  },
+  "contact": {
+    "subtitle": "LIÊN HỆ",
+    "title": "Sẵn sàng bắt đầu?",
+    "desc": "Liên hệ với chuyên gia của chúng tôi để thảo luận về nhu cầu nhân lực quốc tế của bạn",
+    "form": {
+      "heading": "Gửi tin nhắn cho chúng tôi",
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "email": "Địa chỉ email",
+      "company": "Công ty",
+      "message": "Cho chúng tôi biết về nhu cầu của bạn...",
+      "submit": "Gửi tin nhắn"
+    },
+    "info": {
+      "heading": "Thông tin liên hệ",
+      "email": "Email",
+      "phone": "Điện thoại",
+      "office": "Văn phòng",
+      "address": "Tòa nhà Kinh doanh 123, Gangnam-gu, Seoul, Hàn Quốc"
+    },
+    "hours": {
+      "heading": "Giờ làm việc",
+      "weekday": "Thứ Hai - Thứ Sáu",
+      "weekdayTime": "9:00 SA - 6:00 CH KST",
+      "saturday": "Thứ Bảy",
+      "saturdayTime": "10:00 SA - 2:00 CH KST",
+      "sunday": "Chủ Nhật",
+      "closed": "Đóng cửa"
+    }
   }
 }
