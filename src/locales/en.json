@@ -1,5 +1,5 @@
 {
-  "brandName": "Workforce Company",
+  "brandName": "K10 HR",
   "nav": {
     "solutions": "Services",
     "process": "Process",
@@ -121,8 +121,8 @@
     "careers": "Careers",
     "privacy": "Privacy Policy",
     "contact": "Contact",
-    "location": "Seoul, South Korea",
-    "copyright": "K10 Workforce Company. All rights reserved."
+    "location": "128 Chungjeong-ro, Namwon-si, Jeollabuk-do",
+    "copyright": "K-Ten Inryeok Co., Ltd. All rights reserved."
   },
   "jobSeekers": {
     "header": {
@@ -241,7 +241,7 @@
       "email": "Email",
       "phone": "Phone",
       "office": "Office",
-      "address": "123 Business Tower, Gangnam-gu, Seoul, South Korea"
+      "address": "128 Chungjeong-ro, Namwon-si, Jeollabuk-do, South Korea"
     },
     "hours": {
       "heading": "Office Hours",

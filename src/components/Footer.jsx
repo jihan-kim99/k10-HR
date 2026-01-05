@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer style={styles.footer}>
       <div style={styles.container}>
-        <div className="grid-cols-1 md-grid-4" style={{ marginBottom: "48px" }}>
+        <div className="grid-cols-1 md-grid-3" style={{ marginBottom: "48px" }}>
           <div style={{ gridColumn: "span 2" }}>
             <div
               style={{
@@ -18,27 +18,14 @@ const Footer = () => {
                 marginBottom: "24px",
               }}
             >
-              <div
+              <img
+                src="/blue-logo.svg"
+                alt="K10 Logo"
                 style={{
-                  width: "32px",
-                  height: "32px",
-                  backgroundColor: "#1e3a8a",
-                  borderRadius: "0 8px 0 8px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
+                  height: "40px",
+                  width: "40px",
                 }}
-              >
-                <span
-                  style={{
-                    color: "white",
-                    fontWeight: "bold",
-                    fontSize: "0.875rem",
-                  }}
-                >
-                  K10
-                </span>
-              </div>
+              />
               <span
                 style={{
                   fontWeight: "bold",
@@ -52,83 +39,7 @@ const Footer = () => {
             <p style={{ maxWidth: "384px", marginBottom: "24px" }}>
               {t("footer.desc")}
             </p>
-            <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-              {[
-                t("footer.cities.seoul"),
-                t("footer.cities.tokyo"),
-                t("footer.cities.shanghai"),
-                t("footer.cities.singapore"),
-                t("footer.cities.mumbai"),
-              ].map((city) => (
-                <span
-                  key={city}
-                  style={{
-                    fontSize: "0.75rem",
-                    textTransform: "uppercase",
-                    letterSpacing: "0.05em",
-                    color: "#475569",
-                  }}
-                >
-                  {city}
-                </span>
-              ))}
-            </div>
           </div>
-
-          <div>
-            <h4
-              style={{
-                color: "white",
-                fontWeight: "bold",
-                marginBottom: "16px",
-              }}
-            >
-              {t("footer.company")}
-            </h4>
-            <ul
-              style={{
-                listStyle: "none",
-                padding: 0,
-                display: "flex",
-                flexDirection: "column",
-                gap: "8px",
-              }}
-            >
-              <li>
-                <a
-                  href="#"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  {t("footer.about")}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  {t("footer.services")}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  {t("footer.careers")}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  {t("footer.privacy")}
-                </a>
-              </li>
-            </ul>
-          </div>
-
           <div>
             <h4
               style={{
@@ -150,18 +61,26 @@ const Footer = () => {
             >
               <li>
                 <a
-                  href="mailto:contact@k10.kr"
+                  href="mailto:jawoju919@naver.com"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  contact@k10.kr
+                  jawoju919@naver.com
                 </a>
               </li>
               <li>
                 <a
-                  href="tel:1588-XXXX"
+                  href="tel:063-636-8059"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  1588-XXXX
+                  063-636-8059
+                </a>
+              </li>
+              <li>
+                <a
+                  href="tel:010-4192-8059"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  010-4192-8059
                 </a>
               </li>
               <li style={{ fontSize: "0.875rem", marginTop: "16px" }}>

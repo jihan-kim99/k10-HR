@@ -1,5 +1,5 @@
 {
-  "brandName": "K10 人材会社",
+  "brandName": "K10 HR",
   "nav": {
     "solutions": "サービス",
     "process": "プロセス",
@@ -121,8 +121,8 @@
     "careers": "採用",
     "privacy": "プライバシーポリシー",
     "contact": "お問い合わせ",
-    "location": "韓国ソウル",
-    "copyright": "K10 人材会社。All rights reserved."
+    "location": "全羅北道南原市忠正路 128",
+    "copyright": "K-Ten人材。All rights reserved."
   },
   "jobSeekers": {
     "header": {
@@ -220,8 +220,8 @@
     "careers": "採用情報",
     "privacy": "プライバシーポリシー",
     "contact": "お問い合わせ",
-    "location": "韓国ソウル",
-    "copyright": "K10人材会社。全権利所有。"
+    "location": "全羅北道南原市忠正路 128",
+    "copyright": "K-Ten人材。全権利所有。"
   },
   "contact": {
     "subtitle": "お問い合わせ",
@@ -241,7 +241,7 @@
       "email": "メール",
       "phone": "電話",
       "office": "オフィス",
-      "address": "韓国ソウル市江南区ビジネスタワー123"
+      "address": "全羅北道南原市忠正路128"
     },
     "hours": {
       "heading": "営業時間",

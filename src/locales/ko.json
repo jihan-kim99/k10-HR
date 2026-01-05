@@ -1,5 +1,5 @@
 {
-  "brandName": "K10 인력회사",
+  "brandName": "K10 HR",
   "nav": {
     "solutions": "서비스",
     "process": "절차",
@@ -121,8 +121,8 @@
     "careers": "채용",
     "privacy": "개인정보 처리방침",
     "contact": "문의",
-    "location": "대한민국 서울",
-    "copyright": "K10 인력회사. All rights reserved."
+    "location": "전라북도 남원시 충정로 128",
+    "copyright": "(주) 케이텐인력. All rights reserved."
   },
   "jobSeekers": {
     "header": {
@@ -220,8 +220,8 @@
     "careers": "채용",
     "privacy": "개인정보 처리방침",
     "contact": "문의",
-    "location": "대한민국 서울",
-    "copyright": "K10 인력 회사. 모든 권리 보유."
+    "location": "전라북도 남원시 충정로 128",
+    "copyright": "(주) 케이텐인력. 모든 권리 보유."
   },
   "contact": {
     "subtitle": "문의하기",
@@ -241,7 +241,7 @@
       "email": "이메일",
       "phone": "전화",
       "office": "사무실",
-      "address": "서울특별시 강남구 비즈니스타워 123"
+      "address": "전라북도 남원시 충정로 128"
     },
     "hours": {
       "heading": "운영 시간",

@@ -73,9 +73,14 @@ const Navbar = () => {
         <div style={styles.container}>
           <div style={styles.navContent}>
             <div style={styles.logoContainer}>
-              <div style={styles.logoBox}>
-                <span style={styles.logoText}>K10</span>
-              </div>
+              <img
+                src="/blue-logo.svg"
+                alt="K10 Logo"
+                style={{
+                  height: "40px",
+                  width: "40px",
+                }}
+              />
               <span
                 className={`brand-text ${
                   scrolled || isMenuOpen

@@ -9,3 +9,27 @@ body {
   font-family: "Inter", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
     "WenQuanYi Micro Hei", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/* Contact Form Mobile Styles */
+@media (max-width: 768px) {
+  .contact-form-container {
+    padding: 24px !important;
+  }
+
+  .flex-col-mobile {
+    flex-direction: column !important;
+  }
+
+  /* Ensure inputs are readable on mobile */
+  input,
+  textarea {
+    font-size: 16px !important; /* Prevents zoom on iOS */
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-container {
+    padding: 20px !important;
+    border-radius: 16px !important;
+  }
+}

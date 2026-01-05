@@ -1,5 +1,5 @@
 {
-  "brandName": "Công ty Nhân lực K10",
+  "brandName": "K10 HR",
   "nav": {
     "solutions": "Dịch vụ",
     "process": "Quy trình",
@@ -121,8 +121,8 @@
     "careers": "Tuyển dụng",
     "privacy": "Chính sách Bảo mật",
     "contact": "Liên hệ",
-    "location": "Seoul, Hàn Quốc",
-    "copyright": "Công ty Nhân lực K10. Bảo lưu mọi quyền."
+    "location": "128 Chungjeong-ro, Namwon-si, Jeollabuk-do",
+    "copyright": "K-Ten Inryeok. Bảo lưu mọi quyền."
   },
   "jobSeekers": {
     "header": {
@@ -220,8 +220,8 @@
     "careers": "Tuyển dụng",
     "privacy": "Chính sách bảo mật",
     "contact": "Liên hệ",
-    "location": "Seoul, Hàn Quốc",
-    "copyright": "Công ty Nhân lực K10. Bảo lưu mọi quyền."
+    "location": "128 Chungjeong-ro, Namwon-si, Jeollabuk-do",
+    "copyright": "K-Ten Inryeok. Bảo lưu mọi quyền."
   },
   "contact": {
     "subtitle": "LIÊN HỆ",
@@ -241,7 +241,7 @@
       "email": "Email",
       "phone": "Điện thoại",
       "office": "Văn phòng",
-      "address": "Tòa nhà Kinh doanh 123, Gangnam-gu, Seoul, Hàn Quốc"
+      "address": "128 Chungjeong-ro, Namwon-si, Jeollabuk-do, Hàn Quốc"
     },
     "hours": {
       "heading": "Giờ làm việc",

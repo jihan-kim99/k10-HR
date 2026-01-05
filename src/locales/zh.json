@@ -1,5 +1,5 @@
 {
-  "brandName": "K10 人力公司",
+  "brandName": "K10 HR",
   "nav": {
     "solutions": "服务",
     "process": "流程",
@@ -121,8 +121,8 @@
     "careers": "招聘",
     "privacy": "隐私政策",
     "contact": "联系方式",
-    "location": "韩国首尔",
-    "copyright": "K10 人力公司。保留所有权利。"
+    "location": "全罗北道南原市忠正路 128",
+    "copyright": "K-Ten人力。保留所有权利。"
   },
   "jobSeekers": {
     "header": {
@@ -220,8 +220,8 @@
     "careers": "招聘",
     "privacy": "隐私政策",
     "contact": "联系方式",
-    "location": "韩国首尔",
-    "copyright": "K10人力公司。版权所有。"
+    "location": "全罗北道南原市忠正路 128",
+    "copyright": "K-Ten人力。版权所有。"
   },
   "contact": {
     "subtitle": "联系我们",
@@ -241,7 +241,7 @@
       "email": "电子邮件",
       "phone": "电话",
       "office": "办公室",
-      "address": "韩国首尔江南区商务大厦123号"
+      "address": "全罗北道南原市忠正路 128号"
     },
     "hours": {
       "heading": "办公时间",

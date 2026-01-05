@@ -30,14 +30,15 @@ const Contact = () => {
           style={{ display: "flex", gap: "64px", alignItems: "start" }}
         >
           {/* Contact Form */}
-          <div style={{ flex: 1 }}>
+          <div style={{ flex: 1, width: "100%" }}>
             <div
               style={{
                 backgroundColor: "white",
-                padding: "48px",
+                padding: "32px",
                 borderRadius: "24px",
                 boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)",
               }}
+              className="contact-form-container"
             >
               <h4
                 style={{
@@ -50,38 +51,32 @@ const Contact = () => {
                 {t("contact.form.heading")}
               </h4>
               <form
+                // action="https://formsubmit.co/jawoju919@naver.com"
+                action="https://formsubmit.co/38dad5807af1f29e4fb219c59d23dcb2"
+                method="POST"
                 style={{
                   display: "flex",
                   flexDirection: "column",
                   gap: "24px",
                 }}
               >
-                <div style={{ display: "flex", gap: "16px" }}>
-                  <input
-                    type="text"
-                    placeholder={t("contact.form.firstName")}
-                    style={{
-                      flex: 1,
-                      padding: "12px 16px",
-                      border: "1px solid #d1d5db",
-                      borderRadius: "8px",
-                      fontSize: "1rem",
-                    }}
-                  />
-                  <input
-                    type="text"
-                    placeholder={t("contact.form.lastName")}
-                    style={{
-                      flex: 1,
-                      padding: "12px 16px",
-                      border: "1px solid #d1d5db",
-                      borderRadius: "8px",
-                      fontSize: "1rem",
-                    }}
-                  />
-                </div>
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  placeholder={t("contact.form.firstName")}
+                  style={{
+                    width: "100%",
+                    padding: "12px 16px",
+                    border: "1px solid #d1d5db",
+                    borderRadius: "8px",
+                    fontSize: "1rem",
+                  }}
+                />
                 <input
                   type="email"
+                  name="email"
+                  required
                   placeholder={t("contact.form.email")}
                   style={{
                     width: "100%",
@@ -91,18 +86,9 @@ const Contact = () => {
                     fontSize: "1rem",
                   }}
                 />
-                <input
-                  type="text"
-                  placeholder={t("contact.form.company")}
-                  style={{
-                    width: "100%",
-                    padding: "12px 16px",
-                    border: "1px solid #d1d5db",
-                    borderRadius: "8px",
-                    fontSize: "1rem",
-                  }}
-                />
                 <textarea
+                  name="message"
+                  required
                   placeholder={t("contact.form.message")}
                   rows="4"
                   style={{
@@ -127,6 +113,12 @@ const Contact = () => {
                     cursor: "pointer",
                     transition: "background-color 0.2s",
                   }}
+                  onMouseOver={(e) =>
+                    (e.currentTarget.style.backgroundColor = "#1d4ed8")
+                  }
+                  onMouseOut={(e) =>
+                    (e.currentTarget.style.backgroundColor = "#2563eb")
+                  }
                 >
                   {t("contact.form.submit")}
                 </button>
@@ -135,7 +127,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Info */}
-          <div style={{ flex: 1 }}>
+          <div style={{ flex: 1, width: "100%" }}>
             <div style={{ marginBottom: "48px" }}>
               <h4
                 style={{
@@ -188,7 +180,7 @@ const Contact = () => {
                     <p style={{ fontWeight: "bold", color: "#0f172a" }}>
                       {t("contact.info.email")}
                     </p>
-                    <p style={{ color: "#475569" }}>contact@k10.kr</p>
+                    <p style={{ color: "#475569" }}>jawoju919@naver.com</p>
                   </div>
                 </div>
 
@@ -226,7 +218,9 @@ const Contact = () => {
                     <p style={{ fontWeight: "bold", color: "#0f172a" }}>
                       {t("contact.info.phone")}
                     </p>
-                    <p style={{ color: "#475569" }}>1588-XXXX</p>
+                    <p style={{ color: "#475569" }}>
+                      063-636-8059 / 010-4192-8059
+                    </p>
                   </div>
                 </div>
 
