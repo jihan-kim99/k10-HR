@@ -107,7 +107,7 @@
     "contact": "Contact Us"
   },
   "footer": {
-    "desc": "We cheer for company success and foreigners' dreams. From recruitment to settlement, K10 is with you.",
+    "desc": "K10 Workforce Company connects companies with global talent and supports foreigners' success in Korea.",
     "cities": {
       "seoul": "Seoul",
       "tokyo": "Tokyo",
@@ -115,14 +115,14 @@
       "singapore": "Singapore",
       "mumbai": "Mumbai"
     },
-    "company": "K10 Workforce Company",
+    "company": "Company",
     "about": "About Us",
-    "services": "Company/Foreigner Services",
+    "services": "Services",
     "careers": "Careers",
     "privacy": "Privacy Policy",
     "contact": "Contact",
-    "location": "128 Chungjeong-ro, Namwon-si, Jeollabuk-do",
-    "copyright": "K-Ten Inryeok Co., Ltd. All rights reserved."
+    "location": "Seoul, South Korea",
+    "copyright": "K10 Workforce Company. All rights reserved."
   },
   "jobSeekers": {
     "header": {
@@ -205,24 +205,6 @@
       }
     }
   },
-  "footer": {
-    "desc": "K10 Workforce Company connects companies with global talent and supports foreigners' success in Korea.",
-    "cities": {
-      "seoul": "Seoul",
-      "tokyo": "Tokyo",
-      "shanghai": "Shanghai",
-      "singapore": "Singapore",
-      "mumbai": "Mumbai"
-    },
-    "company": "Company",
-    "about": "About Us",
-    "services": "Services",
-    "careers": "Careers",
-    "privacy": "Privacy Policy",
-    "contact": "Contact",
-    "location": "Seoul, South Korea",
-    "copyright": "K10 Workforce Company. All rights reserved."
-  },
   "contact": {
     "subtitle": "GET IN TOUCH",
     "title": "Ready to Get Started?",
@@ -252,5 +234,34 @@
       "sunday": "Sunday",
       "closed": "Closed"
     }
+  },
+  "consultation": {
+    "title": "Please select the option that describes you best to proceed with the consultation form.",
+    "worker": {
+      "title": "For Workers",
+      "desc": "Find jobs in Korea, visa support, and settlement assistance."
+    },
+    "company": {
+      "title": "For Companies",
+      "desc": "Find global talent and manage foreign workforce visas."
+    },
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "nationality": "Nationality",
+      "currentLocation": "Current Location",
+      "visaStatus": "Visa Status",
+      "jobIndustry": "Job Industry / Interest",
+      "message": "Message / Additional Details",
+      "submit": "Send Consultation Request",
+      "companyName": "Company Name",
+      "contactPerson": "Contact Person Name",
+      "industry": "Industry / Sector",
+      "hiringNeeds": "Hiring Needs (Job Roles)",
+      "hiresNeeded": "Number of Hires Needed"
+    },
+    "back": "Back",
+    "fillForm": "Please fill out the form below."
   }
 }

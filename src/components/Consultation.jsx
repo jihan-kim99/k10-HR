@@ -109,7 +109,7 @@ const Consultation = () => {
                 marginBottom: "16px",
               }}
             >
-              Start Consultation
+              {t("hero.cta.start")}
             </h1>
             <p
               style={{
@@ -120,8 +120,7 @@ const Consultation = () => {
                 fontSize: "1.125rem",
               }}
             >
-              Please select the option that describes you best to proceed with the
-              consultation form.
+              {t("consultation.title")}
             </p>
 
             <div
@@ -182,10 +181,10 @@ const Consultation = () => {
                     marginBottom: "16px",
                   }}
                 >
-                  For Workers
+                  {t("consultation.worker.title")}
                 </h2>
                 <p style={{ color: "#64748b" }}>
-                  Find jobs in Korea, visa support, and settlement assistance.
+                  {t("consultation.worker.desc")}
                 </p>
               </div>
 
@@ -239,10 +238,10 @@ const Consultation = () => {
                     marginBottom: "16px",
                   }}
                 >
-                  For Companies
+                  {t("consultation.company.title")}
                 </h2>
                 <p style={{ color: "#64748b" }}>
-                  Find global talent and manage foreign workforce visas.
+                  {t("consultation.company.desc")}
                 </p>
               </div>
             </div>
@@ -264,7 +263,7 @@ const Consultation = () => {
                 marginBottom: "32px",
               }}
             >
-              <ArrowLeft size={20} /> Back to Selection
+              <ArrowLeft size={20} /> {t("consultation.back")}
             </button>
 
             <div style={formStyle}>
@@ -278,8 +277,8 @@ const Consultation = () => {
                 }}
               >
                 {selectedType === "worker"
-                  ? "Worker Consultation"
-                  : "Company Consultation"}
+                  ? t("consultation.worker.title")
+                  : t("consultation.company.title")}
               </h2>
               <p
                 style={{
@@ -288,7 +287,7 @@ const Consultation = () => {
                   marginBottom: "32px",
                 }}
               >
-                Please fill out the form below and we will get back to you.
+                {t("consultation.fillForm")}
               </p>
 
               <form
@@ -306,21 +305,21 @@ const Consultation = () => {
                   <>
                     <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
                         <div style={{ flex: 1, ...formGroupStyle }}>
-                        <label style={labelStyle}>{t("contact.form.firstName") || "Name"}</label>
+                        <label style={labelStyle}>{t("consultation.form.fullName")}</label>
                         <input
                             type="text"
                             name="name"
                             required
-                            placeholder="Your Name"
+                            placeholder={t("consultation.form.fullName")}
                             style={inputStyle}
                         />
                         </div>
                         <div style={{ flex: 1, ...formGroupStyle }}>
-                        <label style={labelStyle}>Nationality</label>
+                        <label style={labelStyle}>{t("consultation.form.nationality")}</label>
                         <input
                             type="text"
                             name="nationality"
-                            placeholder="Your Nationality"
+                            placeholder={t("consultation.form.nationality")}
                             style={inputStyle}
                         />
                         </div>
@@ -328,17 +327,17 @@ const Consultation = () => {
 
                     <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
                          <div style={{ flex: 1, ...formGroupStyle }}>
-                            <label style={labelStyle}>{t("contact.info.phone") || "Phone"}</label>
+                            <label style={labelStyle}>{t("consultation.form.phone")}</label>
                             <input
                                 type="tel"
                                 name="phone"
                                 required
-                                placeholder="Phone Number"
+                                placeholder={t("consultation.form.phone")}
                                 style={inputStyle}
                             />
                         </div>
                         <div style={{ flex: 1, ...formGroupStyle }}>
-                        <label style={labelStyle}>{t("contact.form.email") || "Email"}</label>
+                        <label style={labelStyle}>{t("consultation.form.email")}</label>
                         <input
                             type="email"
                             name="email"
@@ -350,7 +349,7 @@ const Consultation = () => {
                     </div>
 
                     <div style={formGroupStyle}>
-                      <label style={labelStyle}>Current Visa Status (if in Korea)</label>
+                      <label style={labelStyle}>{t("consultation.form.visaStatus")}</label>
                       <input
                         type="text"
                         name="visa_status"
@@ -360,12 +359,12 @@ const Consultation = () => {
                     </div>
 
                     <div style={formGroupStyle}>
-                      <label style={labelStyle}>Message / Job Preference</label>
+                      <label style={labelStyle}>{t("consultation.form.message")}</label>
                       <textarea
                         name="message"
                         required
                         rows="4"
-                        placeholder="Tell us about what kind of job you are looking for..."
+                        placeholder={t("consultation.form.message")}
                         style={{ ...inputStyle, resize: "vertical" }}
                       ></textarea>
                     </div>
@@ -374,22 +373,22 @@ const Consultation = () => {
                   <>
                     <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
                          <div style={{ flex: 1, ...formGroupStyle }}>
-                            <label style={labelStyle}>{t("contact.form.company") || "Company Name"}</label>
+                            <label style={labelStyle}>{t("consultation.form.companyName")}</label>
                             <input
                                 type="text"
                                 name="company_name"
                                 required
-                                placeholder="Company Name"
+                                placeholder={t("consultation.form.companyName")}
                                 style={inputStyle}
                             />
                         </div>
                         <div style={{ flex: 1, ...formGroupStyle }}>
-                            <label style={labelStyle}>Contact Person</label>
+                            <label style={labelStyle}>{t("consultation.form.contactPerson")}</label>
                             <input
                                 type="text"
                                 name="contact_person"
                                 required
-                                placeholder="Name of Contact Person"
+                                placeholder={t("consultation.form.contactPerson")}
                                 style={inputStyle}
                             />
                         </div>
@@ -397,17 +396,17 @@ const Consultation = () => {
 
                     <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
                          <div style={{ flex: 1, ...formGroupStyle }}>
-                            <label style={labelStyle}>{t("contact.info.phone") || "Phone"}</label>
+                            <label style={labelStyle}>{t("consultation.form.phone")}</label>
                             <input
                                 type="tel"
                                 name="phone"
                                 required
-                                placeholder="Contact Phone Number"
+                                placeholder={t("consultation.form.phone")}
                                 style={inputStyle}
                             />
                         </div>
                         <div style={{ flex: 1, ...formGroupStyle }}>
-                            <label style={labelStyle}>{t("contact.form.email") || "Email"}</label>
+                            <label style={labelStyle}>{t("consultation.form.email")}</label>
                             <input
                                 type="email"
                                 name="email"
@@ -419,12 +418,12 @@ const Consultation = () => {
                     </div>
 
                     <div style={formGroupStyle}>
-                      <label style={labelStyle}>Recruitment Needs</label>
+                      <label style={labelStyle}>{t("consultation.form.hiringNeeds")}</label>
                       <textarea
                         name="message"
                         required
                         rows="4"
-                        placeholder="Describe your recruitment needs or questions..."
+                        placeholder={t("consultation.form.hiringNeeds")}
                         style={{ ...inputStyle, resize: "vertical" }}
                       ></textarea>
                     </div>
@@ -441,7 +440,7 @@ const Consultation = () => {
                     (e.currentTarget.style.backgroundColor = "#2563eb")
                   }
                 >
-                  Submit Consultation Request
+                  {t("consultation.form.submit")}
                 </button>
               </form>
             </div>

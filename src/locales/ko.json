@@ -107,7 +107,7 @@
     "contact": "문의하기"
   },
   "footer": {
-    "desc": "기업의 성공과 외국인의 꿈을 응원합니다. 채용부터 정착까지, K10이 함께합니다.",
+    "desc": "K10 인력 회사는 기업과 글로벌 인재를 연결하고 외국인의 한국 성공을 지원합니다.",
     "cities": {
       "seoul": "서울",
       "tokyo": "도쿄",
@@ -115,14 +115,14 @@
       "singapore": "싱가포르",
       "mumbai": "뭄바이"
     },
-    "company": "K10 인력회사",
+    "company": "회사",
     "about": "회사 소개",
-    "services": "기업/외국인 서비스",
+    "services": "서비스",
     "careers": "채용",
     "privacy": "개인정보 처리방침",
     "contact": "문의",
     "location": "전라북도 남원시 충정로 128",
-    "copyright": "(주) 케이텐인력. All rights reserved."
+    "copyright": "(주) 케이텐인력. 모든 권리 보유."
   },
   "jobSeekers": {
     "header": {
@@ -205,24 +205,6 @@
       }
     }
   },
-  "footer": {
-    "desc": "K10 인력 회사는 기업과 글로벌 인재를 연결하고 외국인의 한국 성공을 지원합니다.",
-    "cities": {
-      "seoul": "서울",
-      "tokyo": "도쿄",
-      "shanghai": "상하이",
-      "singapore": "싱가포르",
-      "mumbai": "뭄바이"
-    },
-    "company": "회사",
-    "about": "회사 소개",
-    "services": "서비스",
-    "careers": "채용",
-    "privacy": "개인정보 처리방침",
-    "contact": "문의",
-    "location": "전라북도 남원시 충정로 128",
-    "copyright": "(주) 케이텐인력. 모든 권리 보유."
-  },
   "contact": {
     "subtitle": "문의하기",
     "title": "시작할 준비가 되셨나요?",
@@ -252,5 +234,34 @@
       "sunday": "일요일",
       "closed": "휴무"
     }
+  },
+  "consultation": {
+    "title": "상담 양식을 진행하려면 귀하에게 가장 적합한 옵션을 선택해 주세요.",
+    "worker": {
+      "title": "근로자용",
+      "desc": "한국 내 일자리 찾기, 비자 지원 및 정착 지원."
+    },
+    "company": {
+      "title": "기업용",
+      "desc": "글로벌 인재 찾기 및 외국인 인력 비자 관리."
+    },
+    "form": {
+      "fullName": "성명",
+      "email": "이메일 주소",
+      "phone": "전화번호",
+      "nationality": "국적",
+      "currentLocation": "현재 거주지",
+      "visaStatus": "비자 상태",
+      "jobIndustry": "희망 직종 / 관심 분야",
+      "message": "메시지 / 추가 세부 사항",
+      "submit": "상담 요청 보내기",
+      "companyName": "회사명",
+      "contactPerson": "담당자 성명",
+      "industry": "업종 / 분야",
+      "hiringNeeds": "채용 필요 인력 (직무)",
+      "hiresNeeded": "채용 예정 인원"
+    },
+    "back": "뒤로",
+    "fillForm": "아래 양식을 작성해 주세요."
   }
 }

@@ -107,7 +107,7 @@
     "contact": "お問い合わせ"
   },
   "footer": {
-    "desc": "企業の成功と外国人の夢を応援します。採用から定住まで、K10が一緒です。",
+    "desc": "K10人材会社は、企業とグローバル人材を結び、外国人の韓国での成功を支援します。",
     "cities": {
       "seoul": "ソウル",
       "tokyo": "東京",
@@ -115,14 +115,14 @@
       "singapore": "シンガポール",
       "mumbai": "ムンバイ"
     },
-    "company": "K10 人材会社",
-    "about": "会社紹介",
-    "services": "企業/外国人サービス",
-    "careers": "採用",
+    "company": "会社",
+    "about": "会社概要",
+    "services": "サービス",
+    "careers": "採用情報",
     "privacy": "プライバシーポリシー",
     "contact": "お問い合わせ",
     "location": "全羅北道南原市忠正路 128",
-    "copyright": "K-Ten人材。All rights reserved."
+    "copyright": "K-Ten人材。全権利所有。"
   },
   "jobSeekers": {
     "header": {
@@ -205,24 +205,6 @@
       }
     }
   },
-  "footer": {
-    "desc": "K10人材会社は、企業とグローバル人材を結び、外国人の韓国での成功を支援します。",
-    "cities": {
-      "seoul": "ソウル",
-      "tokyo": "東京",
-      "shanghai": "上海",
-      "singapore": "シンガポール",
-      "mumbai": "ムンバイ"
-    },
-    "company": "会社",
-    "about": "会社概要",
-    "services": "サービス",
-    "careers": "採用情報",
-    "privacy": "プライバシーポリシー",
-    "contact": "お問い合わせ",
-    "location": "全羅北道南原市忠正路 128",
-    "copyright": "K-Ten人材。全権利所有。"
-  },
   "contact": {
     "subtitle": "お問い合わせ",
     "title": "始める準備はできていますか？",
@@ -252,5 +234,34 @@
       "sunday": "日曜日",
       "closed": "休業"
     }
+  },
+  "consultation": {
+    "title": "相談フォームに進むには、あなたに最も適したオプションを選択してください。",
+    "worker": {
+      "title": "労働者向け",
+      "desc": "韓国での仕事探し、ビザサポート、定住支援。"
+    },
+    "company": {
+      "title": "企業向け",
+      "desc": "グローバル人材の発掘と外国人労働者のビザ管理。"
+    },
+    "form": {
+      "fullName": "氏名",
+      "email": "メールアドレス",
+      "phone": "電話番号",
+      "nationality": "国籍",
+      "currentLocation": "現在の居住地",
+      "visaStatus": "ビザのステータス",
+      "jobIndustry": "希望業種 / 関心分野",
+      "message": "メッセージ / 追加詳細",
+      "submit": "相談リクエストを送信",
+      "companyName": "会社名",
+      "contactPerson": "担当者名",
+      "industry": "業種 / 分野",
+      "hiringNeeds": "採用ニーズ (職務)",
+      "hiresNeeded": "採用予定人数"
+    },
+    "back": "戻る",
+    "fillForm": "以下のフォームにご記入ください。"
   }
 }
