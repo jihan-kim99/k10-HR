@@ -3,11 +3,14 @@ import { useTranslation } from "react-i18next";
 import { Globe, ChevronDown, CheckCircle, Menu, X } from "lucide-react";
 import { styles } from "../styles";
 
-const Navbar = () => {
+const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [localScrolled, setLocalScrolled] = useState(false);
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
+
+  const scrolled =
+    propIsScrolled !== undefined ? propIsScrolled : localScrolled;
 
   const languages = [
     { code: "zh", label: "Chinese", native: "中文" },
@@ -24,7 +27,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
+      setLocalScrolled(window.scrollY > 20);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -40,16 +43,20 @@ const Navbar = () => {
 
   const handleNavClick = (e, sectionId) => {
     e.preventDefault();
-    const element = document.getElementById(sectionId);
-    if (element) {
-      const navHeight = 80; // Approximate navbar height
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - navHeight;
+    if (scrollToSection) {
+      scrollToSection(sectionId);
+    } else {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        const navHeight = 80; // Approximate navbar height
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - navHeight;
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth",
-      });
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
     }
     setIsMenuOpen(false);
   };
