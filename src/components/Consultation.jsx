@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { ArrowLeft, User, Building2 } from "lucide-react";
@@ -14,6 +14,10 @@ const Consultation = () => {
   const [activeSection, setActiveSection] = useState("");
   const [selectedType, setSelectedType] = useState(null); // 'worker' | 'company' | null
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
     setLang(lng);
@@ -27,10 +31,12 @@ const Consultation = () => {
 
   const handleSelection = (type) => {
     setSelectedType(type);
+    window.scrollTo(0, 0);
   };
 
   const handleBack = () => {
     setSelectedType(null);
+    window.scrollTo(0, 0);
   };
 
   const formStyle = {
@@ -110,7 +116,7 @@ const Consultation = () => {
                 textAlign: "center",
                 color: "#64748b",
                 maxWidth: "600px",
-                margin: "0 auto 64px auto",
+                margin: "24px auto 64px auto",
                 fontSize: "1.125rem",
               }}
             >
