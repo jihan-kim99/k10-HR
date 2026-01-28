@@ -107,7 +107,7 @@
     "contact": "Liên hệ Chúng tôi"
   },
   "footer": {
-    "desc": "Chúng tôi cổ vũ cho sự thành công của công ty và giấc mơ của người nước ngoài. Từ tuyển dụng đến an cư, K10 cùng bạn.",
+    "desc": "Công ty Nhân lực K10 kết nối doanh nghiệp với nhân tài toàn cầu và hỗ trợ người nước ngoài thành công tại Hàn Quốc.",
     "cities": {
       "seoul": "Seoul",
       "tokyo": "Tokyo",
@@ -115,11 +115,11 @@
       "singapore": "Singapore",
       "mumbai": "Mumbai"
     },
-    "company": "Công ty Nhân lực K10",
-    "about": "Về Chúng tôi",
-    "services": "Dịch vụ Công ty/Người Nước ngoài",
+    "company": "Công ty",
+    "about": "Về chúng tôi",
+    "services": "Dịch vụ",
     "careers": "Tuyển dụng",
-    "privacy": "Chính sách Bảo mật",
+    "privacy": "Chính sách bảo mật",
     "contact": "Liên hệ",
     "location": "128 Chungjeong-ro, Namwon-si, Jeollabuk-do",
     "copyright": "K-Ten Inryeok. Bảo lưu mọi quyền."
@@ -205,24 +205,6 @@
       }
     }
   },
-  "footer": {
-    "desc": "Công ty Nhân lực K10 kết nối doanh nghiệp với nhân tài toàn cầu và hỗ trợ người nước ngoài thành công tại Hàn Quốc.",
-    "cities": {
-      "seoul": "Seoul",
-      "tokyo": "Tokyo",
-      "shanghai": "Thượng Hải",
-      "singapore": "Singapore",
-      "mumbai": "Mumbai"
-    },
-    "company": "Công ty",
-    "about": "Về chúng tôi",
-    "services": "Dịch vụ",
-    "careers": "Tuyển dụng",
-    "privacy": "Chính sách bảo mật",
-    "contact": "Liên hệ",
-    "location": "128 Chungjeong-ro, Namwon-si, Jeollabuk-do",
-    "copyright": "K-Ten Inryeok. Bảo lưu mọi quyền."
-  },
   "contact": {
     "subtitle": "LIÊN HỆ",
     "title": "Sẵn sàng bắt đầu?",
@@ -252,5 +234,34 @@
       "sunday": "Chủ Nhật",
       "closed": "Đóng cửa"
     }
+  },
+  "consultation": {
+    "title": "Vui lòng chọn tùy chọn mô tả đúng nhất về bạn để tiếp tục với biểu mẫu tư vấn.",
+    "worker": {
+      "title": "Dành cho người lao động",
+      "desc": "Tìm việc làm tại Hàn Quốc, hỗ trợ thị thực và hỗ trợ định cư."
+    },
+    "company": {
+      "title": "Dành cho công ty",
+      "desc": "Tìm kiếm nhân tài toàn cầu và quản lý thị thực lao động nước ngoài."
+    },
+    "form": {
+      "fullName": "Họ và tên",
+      "email": "Địa chỉ email",
+      "phone": "Số điện thoại",
+      "nationality": "Quốc tịch",
+      "currentLocation": "Địa điểm hiện tại",
+      "visaStatus": "Tình trạng thị thực",
+      "jobIndustry": "Ngành nghề / Mối quan tâm",
+      "message": "Tin nhắn / Chi tiết bổ sung",
+      "submit": "Gửi yêu cầu tư vấn",
+      "companyName": "Tên công ty",
+      "contactPerson": "Tên người liên hệ",
+      "industry": "Ngành / Lĩnh vực",
+      "hiringNeeds": "Nhu cầu tuyển dụng (Vị trí công việc)",
+      "hiresNeeded": "Số lượng cần tuyển"
+    },
+    "back": "Quay lại",
+    "fillForm": "Vui lòng điền vào biểu mẫu bên dưới."
   }
 }

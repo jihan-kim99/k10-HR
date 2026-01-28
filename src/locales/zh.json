@@ -107,7 +107,7 @@
     "contact": "联系我们"
   },
   "footer": {
-    "desc": "我们为企业的成功和外国人的梦想加油。从招聘到定居，K10与您同行。",
+    "desc": "K10人力公司连接企业与全球人才，支持外国人在韩国取得成功。",
     "cities": {
       "seoul": "首尔",
       "tokyo": "东京",
@@ -115,14 +115,14 @@
       "singapore": "新加坡",
       "mumbai": "孟买"
     },
-    "company": "K10 人力公司",
+    "company": "公司",
     "about": "关于我们",
-    "services": "企业/外国人服务",
+    "services": "服务",
     "careers": "招聘",
     "privacy": "隐私政策",
     "contact": "联系方式",
     "location": "全罗北道南原市忠正路 128",
-    "copyright": "K-Ten人力。保留所有权利。"
+    "copyright": "K-Ten人力。版权所有。"
   },
   "jobSeekers": {
     "header": {
@@ -205,24 +205,6 @@
       }
     }
   },
-  "footer": {
-    "desc": "K10人力公司连接企业与全球人才，支持外国人在韩国取得成功。",
-    "cities": {
-      "seoul": "首尔",
-      "tokyo": "东京",
-      "shanghai": "上海",
-      "singapore": "新加坡",
-      "mumbai": "孟买"
-    },
-    "company": "公司",
-    "about": "关于我们",
-    "services": "服务",
-    "careers": "招聘",
-    "privacy": "隐私政策",
-    "contact": "联系方式",
-    "location": "全罗北道南原市忠正路 128",
-    "copyright": "K-Ten人力。版权所有。"
-  },
   "contact": {
     "subtitle": "联系我们",
     "title": "准备开始了吗？",
@@ -252,5 +234,34 @@
       "sunday": "周日",
       "closed": "休息"
     }
+  },
+  "consultation": {
+    "title": "请选择最适合您的选项以继续填写咨询表。",
+    "worker": {
+      "title": "求职者",
+      "desc": "寻找韩国工作、签证支持和安家协助。"
+    },
+    "company": {
+      "title": "企业",
+      "desc": "寻找全球人才并管理外籍劳工签证。"
+    },
+    "form": {
+      "fullName": "全名",
+      "email": "电子邮件地址",
+      "phone": "电话号码",
+      "nationality": "国籍",
+      "currentLocation": "当前所在地",
+      "visaStatus": "签证状态",
+      "jobIndustry": "求职行业 / 兴趣",
+      "message": "留言 / 更多详情",
+      "submit": "发送咨询请求",
+      "companyName": "公司名称",
+      "contactPerson": "联系人姓名",
+      "industry": "行业 / 领域",
+      "hiringNeeds": "招聘需求 (职位)",
+      "hiresNeeded": "所需招聘人数"
+    },
+    "back": "返回",
+    "fillForm": "请填写以下表格。"
   }
 }

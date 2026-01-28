@@ -1,10 +1,12 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { styles } from "../styles";
 
-const Hero = () => {
+const Hero = ({ scrollToSection }) => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   return (
     <header style={styles.hero}>
@@ -34,10 +36,18 @@ const Hero = () => {
           </p>
 
           <div style={styles.buttonGroup}>
-            <button className="btn-primary">
+            <button
+              className="btn-primary"
+              onClick={() => navigate("/consultation")}
+            >
               {t("hero.cta.start")} <ArrowRight size={20} />
             </button>
-            <button className="btn-outline">{t("hero.cta.view")}</button>
+            <button
+              className="btn-outline"
+              onClick={() => scrollToSection("job-seekers")}
+            >
+              {t("hero.cta.view")}
+            </button>
           </div>
         </div>
       </div>
