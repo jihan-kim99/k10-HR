@@ -79,29 +79,49 @@ const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
       <nav style={navStyle}>
         <div style={styles.container}>
           <div style={styles.navContent}>
-            <div style={styles.logoContainer}>
-              <img
-                src="/blue-logo.svg"
-                alt="K10 Logo"
-                style={{
-                  height: "40px",
-                  width: "40px",
-                }}
-              />
-              <span
-                className={`brand-text ${
-                  scrolled || isMenuOpen
-                    ? "brand-text-scrolled"
-                    : "brand-text-transparent"
-                }`}
-                style={styles.brandName}
-              >
-                {t("brandName")}
-              </span>
-            </div>
+            <a
+              href="#home"
+              onClick={(e) => handleNavClick(e, "home")}
+              style={{
+                textDecoration: "none",
+              }}
+            >
+              <div style={styles.logoContainer}>
+                <img
+                  src="/blue-logo.svg"
+                  alt="K10 Logo"
+                  style={{
+                    height: "40px",
+                    width: "40px",
+                  }}
+                />
+                <span
+                  className={`brand-text ${
+                    scrolled || isMenuOpen
+                      ? "brand-text-scrolled"
+                      : "brand-text-transparent"
+                  }`}
+                  style={styles.brandName}
+                >
+                  {t("brandName")}
+                </span>
+              </div>
+            </a>
 
             {/* Desktop Nav */}
             <div className="desktop-nav">
+              <a
+                href="#home"
+                onClick={(e) => handleNavClick(e, "home")}
+                className="text-slate-300 hover-blue"
+                style={{
+                  textDecoration: "none",
+                  transition: "color 0.2s",
+                  cursor: "pointer",
+                }}
+              >
+                {t("nav.home")}
+              </a>
               <a
                 href="#job-seekers"
                 onClick={(e) => handleNavClick(e, "job-seekers")}
@@ -212,22 +232,23 @@ const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
                   </div>
                 )}
               </div>
-
-              <button
-                style={{
-                  backgroundColor: "#2563eb",
-                  color: "white",
-                  padding: "8px 24px",
-                  borderRadius: "9999px",
-                  fontSize: "0.875rem",
-                  fontWeight: "600",
-                  border: "none",
-                  cursor: "pointer",
-                  boxShadow: "0 4px 6px -1px rgba(37, 99, 235, 0.2)",
-                }}
-              >
-                {t("nav.startNow")}
-              </button>
+              <a href="consultation">
+                <button
+                  style={{
+                    backgroundColor: "#2563eb",
+                    color: "white",
+                    padding: "8px 24px",
+                    borderRadius: "9999px",
+                    fontSize: "0.875rem",
+                    fontWeight: "600",
+                    border: "none",
+                    cursor: "pointer",
+                    boxShadow: "0 4px 6px -1px rgba(37, 99, 235, 0.2)",
+                  }}
+                >
+                  {t("nav.startNow")}
+                </button>
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -294,6 +315,21 @@ const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
           <nav
             style={{ display: "flex", flexDirection: "column", gap: "16px" }}
           >
+            <a
+              href="#home"
+              onClick={(e) => handleNavClick(e, "home")}
+              style={{
+                fontSize: "1.25rem",
+                fontWeight: "bold",
+                color: "#1e293b",
+                padding: "8px 0",
+                borderBottom: "1px solid #f1f5f9",
+                textDecoration: "none",
+                cursor: "pointer",
+              }}
+            >
+              {t("nav.home")}
+            </a>
             <a
               href="#job-seekers"
               onClick={(e) => handleNavClick(e, "job-seekers")}
@@ -402,23 +438,24 @@ const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
               ))}
             </div>
           </div>
-
-          <button
-            style={{
-              marginTop: "auto",
-              backgroundColor: "#1e3a8a",
-              color: "white",
-              padding: "16px",
-              borderRadius: "12px",
-              fontWeight: "bold",
-              fontSize: "1.125rem",
-              border: "none",
-              boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
-              cursor: "pointer",
-            }}
-          >
-            {t("nav.startNow")}
-          </button>
+          <a href="consultation">
+            <button
+              style={{
+                marginTop: "auto",
+                backgroundColor: "#1e3a8a",
+                color: "white",
+                padding: "16px",
+                borderRadius: "12px",
+                fontWeight: "bold",
+                fontSize: "1.125rem",
+                border: "none",
+                boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
+                cursor: "pointer",
+              }}
+            >
+              {t("nav.startNow")}
+            </button>
+          </a>
         </div>
       )}
     </>

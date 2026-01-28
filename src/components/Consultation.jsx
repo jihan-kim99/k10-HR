@@ -106,6 +106,7 @@ const Consultation = () => {
               style={{
                 ...styles.sectionTitle,
                 textAlign: "center",
+                marginTop: "96px",
                 marginBottom: "16px",
               }}
             >
@@ -247,7 +248,12 @@ const Consultation = () => {
             </div>
           </>
         ) : (
-          <div className="fade-in">
+          <div
+            className="fade-in"
+            style={{
+              marginTop: "96px",
+            }}
+          >
             <button
               onClick={handleBack}
               style={{
@@ -258,10 +264,13 @@ const Consultation = () => {
                 border: "none",
                 fontSize: "1rem",
                 fontWeight: "600",
-                color: "#64748b",
+                color: "#2563eb",
                 cursor: "pointer",
                 marginBottom: "32px",
+                transition: "color 0.2s",
               }}
+              onMouseOver={(e) => (e.currentTarget.style.color = "#1d4ed8")}
+              onMouseOut={(e) => (e.currentTarget.style.color = "#2563eb")}
             >
               <ArrowLeft size={20} /> {t("consultation.back")}
             </button>
@@ -303,53 +312,67 @@ const Consultation = () => {
 
                 {selectedType === "worker" ? (
                   <>
-                    <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
-                        <div style={{ flex: 1, ...formGroupStyle }}>
-                        <label style={labelStyle}>{t("consultation.form.fullName")}</label>
+                    <div
+                      style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}
+                    >
+                      <div style={{ flex: 1, ...formGroupStyle }}>
+                        <label style={labelStyle}>
+                          {t("consultation.form.fullName")}
+                        </label>
                         <input
-                            type="text"
-                            name="name"
-                            required
-                            placeholder={t("consultation.form.fullName")}
-                            style={inputStyle}
+                          type="text"
+                          name="name"
+                          required
+                          placeholder={t("consultation.form.fullName")}
+                          style={inputStyle}
                         />
-                        </div>
-                        <div style={{ flex: 1, ...formGroupStyle }}>
-                        <label style={labelStyle}>{t("consultation.form.nationality")}</label>
+                      </div>
+                      <div style={{ flex: 1, ...formGroupStyle }}>
+                        <label style={labelStyle}>
+                          {t("consultation.form.nationality")}
+                        </label>
                         <input
-                            type="text"
-                            name="nationality"
-                            placeholder={t("consultation.form.nationality")}
-                            style={inputStyle}
+                          type="text"
+                          name="nationality"
+                          placeholder={t("consultation.form.nationality")}
+                          style={inputStyle}
                         />
-                        </div>
+                      </div>
                     </div>
 
-                    <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
-                         <div style={{ flex: 1, ...formGroupStyle }}>
-                            <label style={labelStyle}>{t("consultation.form.phone")}</label>
-                            <input
-                                type="tel"
-                                name="phone"
-                                required
-                                placeholder={t("consultation.form.phone")}
-                                style={inputStyle}
-                            />
-                        </div>
-                        <div style={{ flex: 1, ...formGroupStyle }}>
-                        <label style={labelStyle}>{t("consultation.form.email")}</label>
+                    <div
+                      style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}
+                    >
+                      <div style={{ flex: 1, ...formGroupStyle }}>
+                        <label style={labelStyle}>
+                          {t("consultation.form.phone")}
+                        </label>
                         <input
-                            type="email"
-                            name="email"
-                            required
-                            placeholder="email@example.com"
-                            style={inputStyle}
+                          type="tel"
+                          name="phone"
+                          required
+                          placeholder={t("consultation.form.phone")}
+                          style={inputStyle}
                         />
-                        </div>
+                      </div>
+                      <div style={{ flex: 1, ...formGroupStyle }}>
+                        <label style={labelStyle}>
+                          {t("consultation.form.email")}
+                        </label>
+                        <input
+                          type="email"
+                          name="email"
+                          required
+                          placeholder="email@example.com"
+                          style={inputStyle}
+                        />
+                      </div>
                     </div>
 
                     <div style={formGroupStyle}>
-                      <label style={labelStyle}>{t("consultation.form.visaStatus")}</label>
+                      <label style={labelStyle}>
+                        {t("consultation.form.visaStatus")}
+                      </label>
                       <input
                         type="text"
                         name="visa_status"
@@ -359,7 +382,9 @@ const Consultation = () => {
                     </div>
 
                     <div style={formGroupStyle}>
-                      <label style={labelStyle}>{t("consultation.form.message")}</label>
+                      <label style={labelStyle}>
+                        {t("consultation.form.message")}
+                      </label>
                       <textarea
                         name="message"
                         required
@@ -371,54 +396,68 @@ const Consultation = () => {
                   </>
                 ) : (
                   <>
-                    <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
-                         <div style={{ flex: 1, ...formGroupStyle }}>
-                            <label style={labelStyle}>{t("consultation.form.companyName")}</label>
-                            <input
-                                type="text"
-                                name="company_name"
-                                required
-                                placeholder={t("consultation.form.companyName")}
-                                style={inputStyle}
-                            />
-                        </div>
-                        <div style={{ flex: 1, ...formGroupStyle }}>
-                            <label style={labelStyle}>{t("consultation.form.contactPerson")}</label>
-                            <input
-                                type="text"
-                                name="contact_person"
-                                required
-                                placeholder={t("consultation.form.contactPerson")}
-                                style={inputStyle}
-                            />
-                        </div>
+                    <div
+                      style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}
+                    >
+                      <div style={{ flex: 1, ...formGroupStyle }}>
+                        <label style={labelStyle}>
+                          {t("consultation.form.companyName")}
+                        </label>
+                        <input
+                          type="text"
+                          name="company_name"
+                          required
+                          placeholder={t("consultation.form.companyName")}
+                          style={inputStyle}
+                        />
+                      </div>
+                      <div style={{ flex: 1, ...formGroupStyle }}>
+                        <label style={labelStyle}>
+                          {t("consultation.form.contactPerson")}
+                        </label>
+                        <input
+                          type="text"
+                          name="contact_person"
+                          required
+                          placeholder={t("consultation.form.contactPerson")}
+                          style={inputStyle}
+                        />
+                      </div>
                     </div>
 
-                    <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
-                         <div style={{ flex: 1, ...formGroupStyle }}>
-                            <label style={labelStyle}>{t("consultation.form.phone")}</label>
-                            <input
-                                type="tel"
-                                name="phone"
-                                required
-                                placeholder={t("consultation.form.phone")}
-                                style={inputStyle}
-                            />
-                        </div>
-                        <div style={{ flex: 1, ...formGroupStyle }}>
-                            <label style={labelStyle}>{t("consultation.form.email")}</label>
-                            <input
-                                type="email"
-                                name="email"
-                                required
-                                placeholder="company@example.com"
-                                style={inputStyle}
-                            />
-                        </div>
+                    <div
+                      style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}
+                    >
+                      <div style={{ flex: 1, ...formGroupStyle }}>
+                        <label style={labelStyle}>
+                          {t("consultation.form.phone")}
+                        </label>
+                        <input
+                          type="tel"
+                          name="phone"
+                          required
+                          placeholder={t("consultation.form.phone")}
+                          style={inputStyle}
+                        />
+                      </div>
+                      <div style={{ flex: 1, ...formGroupStyle }}>
+                        <label style={labelStyle}>
+                          {t("consultation.form.email")}
+                        </label>
+                        <input
+                          type="email"
+                          name="email"
+                          required
+                          placeholder="company@example.com"
+                          style={inputStyle}
+                        />
+                      </div>
                     </div>
 
                     <div style={formGroupStyle}>
-                      <label style={labelStyle}>{t("consultation.form.hiringNeeds")}</label>
+                      <label style={labelStyle}>
+                        {t("consultation.form.hiringNeeds")}
+                      </label>
                       <textarea
                         name="message"
                         required
