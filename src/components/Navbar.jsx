@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Globe, ChevronDown, CheckCircle, Menu, X } from "lucide-react";
 import { styles } from "../styles";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [localScrolled, setLocalScrolled] = useState(false);
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
@@ -234,7 +235,7 @@ const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
                 )}
               </div>
               <button
-                onClick={() => Navigate("/consultation")}
+                onClick={() => navigate("/consultation")}
                 style={{
                   backgroundColor: "#2563eb",
                   color: "white",
@@ -439,7 +440,7 @@ const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
             </div>
           </div>
           <button
-            onClick={() => Navigate("/consultation")}
+            onClick={() => navigate("/consultation")}
             style={{
               marginTop: "auto",
               backgroundColor: "#1e3a8a",
