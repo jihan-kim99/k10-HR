@@ -18,6 +18,14 @@ const LanguageWrapper = () => {
     if (i18n.language !== lang) {
       i18n.changeLanguage(lang);
     }
+
+    // Add class for long text languages to optimize spacing
+    const longTextLangs = ['en', 'ja', 'mn', 'ru', 'vi'];
+    if (longTextLangs.includes(lang)) {
+      document.body.classList.add('lang-long');
+    } else {
+      document.body.classList.remove('lang-long');
+    }
   }, [lang, i18n, navigate]);
 
   if (!SUPPORTED_LANGUAGES.includes(lang)) return null;

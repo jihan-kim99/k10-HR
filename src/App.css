@@ -199,3 +199,67 @@
 .fade-in {
   animation: fadeIn 0.2s ease-out;
 }
+
+/* Mobile Optimization for Long Text Languages */
+@media (max-width: 768px) {
+  .lang-long .hero-title {
+    font-size: 1.75rem !important;
+  }
+
+  .lang-long .hero-desc {
+    font-size: 0.9375rem !important;
+  }
+
+  /* Section Titles (usually h3 or .section-title) */
+  .lang-long h3,
+  .lang-long .section-title {
+    font-size: 1.75rem !important;
+  }
+
+  /* Card/Subsection Titles */
+  .lang-long h4 {
+    font-size: 1.25rem !important;
+  }
+
+  /* Body Text */
+  .lang-long p {
+    font-size: 1rem !important;
+  }
+
+  /* Layout */
+  .lang-long .section-padding {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+  }
+
+  .lang-long .main-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+
+/* Cost Comparison Card Optimization for Mobile */
+@media (max-width: 768px) {
+  /* Reduce padding on the comparison card for all languages on mobile,
+     as 48px is too large generally. */
+  .comparison-card {
+    padding: 24px !important;
+  }
+
+  /* Specific tweak for long languages if needed, but 24px is a good baseline */
+  .lang-long .comparison-card {
+    padding: 16px !important;
+  }
+}
+
+/* Further optimize long text inside comparison card on mobile */
+@media (max-width: 768px) {
+  .lang-long .comparison-card {
+    font-size: 0.875rem !important; /* Base size */
+  }
+
+  .lang-long .comparison-card div[style*="justify-content: space-between"] {
+     flex-wrap: wrap; /* Allow headers to wrap if they collide */
+     gap: 4px;
+  }
+}
