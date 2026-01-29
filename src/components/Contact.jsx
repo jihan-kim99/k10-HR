@@ -268,6 +268,7 @@ const Contact = () => {
             </div>
 
             <div
+              className="hours-card"
               style={{
                 backgroundColor: "#0f172a",
                 color: "white",
@@ -285,6 +286,7 @@ const Contact = () => {
                 {t("contact.hours.heading")}
               </h4>
               <div
+                className="hours-list"
                 style={{
                   display: "flex",
                   flexDirection: "column",
@@ -292,22 +294,25 @@ const Contact = () => {
                 }}
               >
                 <div
-                  style={{ display: "flex", justifyContent: "space-between" }}
+                  className="hours-row"
+                  style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
                 >
-                  <span>{t("contact.hours.weekday")}</span>
-                  <span>{t("contact.hours.weekdayTime")}</span>
+                  <span className="hours-label">{t("contact.hours.weekday")}</span>
+                  <span className="hours-time">{t("contact.hours.weekdayTime")}</span>
                 </div>
                 <div
-                  style={{ display: "flex", justifyContent: "space-between" }}
+                  className="hours-row"
+                  style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
                 >
-                  <span>{t("contact.hours.saturday")}</span>
-                  <span>{t("contact.hours.saturdayTime")}</span>
+                  <span className="hours-label">{t("contact.hours.saturday")}</span>
+                  <span className="hours-time">{t("contact.hours.saturdayTime")}</span>
                 </div>
                 <div
-                  style={{ display: "flex", justifyContent: "space-between" }}
+                  className="hours-row"
+                  style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
                 >
-                  <span>{t("contact.hours.sunday")}</span>
-                  <span>{t("contact.hours.closed")}</span>
+                  <span className="hours-label">{t("contact.hours.sunday")}</span>
+                  <span className="hours-time">{t("contact.hours.closed")}</span>
                 </div>
               </div>
             </div>

@@ -20,7 +20,7 @@ const Housing = () => {
         >
           <div style={{ flex: 1, maxWidth: "500px" }}>
             <img
-              src="/housing.jpg"
+              src="/housing2.jpg"
               alt="Housing in Korea"
               style={{
                 width: "100%",
