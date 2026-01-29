@@ -5,28 +5,22 @@ import { ArrowLeft, User, Building2 } from "lucide-react";
 import { styles } from "../styles";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import SEO from "./SEO";
 
 const Consultation = () => {
   const { i18n, t } = useTranslation();
   const navigate = useNavigate();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [lang, setLang] = useState(i18n.language);
-  const [activeSection, setActiveSection] = useState("");
+  const [activeSection] = useState("");
   const [selectedType, setSelectedType] = useState(null); // 'worker' | 'company' | null
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-    setLang(lng);
-    setIsMobileMenuOpen(false);
-  };
-
   const scrollToSection = (id) => {
     setIsMobileMenuOpen(false);
-    navigate(`/#${id}`);
+    navigate(`/${i18n.language}/#${id}`);
   };
 
   const handleSelection = (type) => {
@@ -82,14 +76,16 @@ const Consultation = () => {
 
   return (
     <div style={styles.wrapper}>
+      <SEO
+        title={`${t("hero.cta.start")} | ${t("brandName")}`}
+        description={t("consultation.title")}
+      />
       <Navbar
         isScrolled={true}
         isMobileMenuOpen={isMobileMenuOpen}
         setIsMobileMenuOpen={setIsMobileMenuOpen}
         activeSection={activeSection}
         scrollToSection={scrollToSection}
-        changeLanguage={changeLanguage}
-        lang={lang}
       />
 
       <div
