@@ -27,6 +27,7 @@ const CostComparison = () => {
         </div>
 
         <div
+          className="comparison-card"
           style={{
             maxWidth: "896px",
             margin: "0 auto",

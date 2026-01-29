@@ -237,3 +237,29 @@
     padding-right: 16px !important;
   }
 }
+
+/* Cost Comparison Card Optimization for Mobile */
+@media (max-width: 768px) {
+  /* Reduce padding on the comparison card for all languages on mobile,
+     as 48px is too large generally. */
+  .comparison-card {
+    padding: 24px !important;
+  }
+
+  /* Specific tweak for long languages if needed, but 24px is a good baseline */
+  .lang-long .comparison-card {
+    padding: 16px !important;
+  }
+}
+
+/* Further optimize long text inside comparison card on mobile */
+@media (max-width: 768px) {
+  .lang-long .comparison-card {
+    font-size: 0.875rem !important; /* Base size */
+  }
+
+  .lang-long .comparison-card div[style*="justify-content: space-between"] {
+     flex-wrap: wrap; /* Allow headers to wrap if they collide */
+     gap: 4px;
+  }
+}
