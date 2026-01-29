@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Globe, ChevronDown, CheckCircle, Menu, X } from "lucide-react";
 import { styles } from "../styles";
+import { Navigate } from "react-router-dom";
 
 const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
   const { t, i18n } = useTranslation();
@@ -232,23 +233,22 @@ const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
                   </div>
                 )}
               </div>
-              <a href="consultation">
-                <button
-                  style={{
-                    backgroundColor: "#2563eb",
-                    color: "white",
-                    padding: "8px 24px",
-                    borderRadius: "9999px",
-                    fontSize: "0.875rem",
-                    fontWeight: "600",
-                    border: "none",
-                    cursor: "pointer",
-                    boxShadow: "0 4px 6px -1px rgba(37, 99, 235, 0.2)",
-                  }}
-                >
-                  {t("nav.startNow")}
-                </button>
-              </a>
+              <button
+                onClick={() => Navigate("/consultation")}
+                style={{
+                  backgroundColor: "#2563eb",
+                  color: "white",
+                  padding: "8px 24px",
+                  borderRadius: "9999px",
+                  fontSize: "0.875rem",
+                  fontWeight: "600",
+                  border: "none",
+                  cursor: "pointer",
+                  boxShadow: "0 4px 6px -1px rgba(37, 99, 235, 0.2)",
+                }}
+              >
+                {t("nav.startNow")}
+              </button>
             </div>
 
             {/* Mobile Menu Button */}
@@ -438,24 +438,23 @@ const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
               ))}
             </div>
           </div>
-          <a href="consultation">
-            <button
-              style={{
-                marginTop: "auto",
-                backgroundColor: "#1e3a8a",
-                color: "white",
-                padding: "16px",
-                borderRadius: "12px",
-                fontWeight: "bold",
-                fontSize: "1.125rem",
-                border: "none",
-                boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
-                cursor: "pointer",
-              }}
-            >
-              {t("nav.startNow")}
-            </button>
-          </a>
+          <button
+            onClick={() => Navigate("/consultation")}
+            style={{
+              marginTop: "auto",
+              backgroundColor: "#1e3a8a",
+              color: "white",
+              padding: "16px",
+              borderRadius: "12px",
+              fontWeight: "bold",
+              fontSize: "1.125rem",
+              border: "none",
+              boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
+              cursor: "pointer",
+            }}
+          >
+            {t("nav.startNow")}
+          </button>
         </div>
       )}
     </>
