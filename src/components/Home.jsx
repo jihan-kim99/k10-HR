@@ -16,13 +16,13 @@ import JobSeekerHeader from "./JobSeekerHeader";
 import CompanySolutions from "./CompanySolutions";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import SEO from "./SEO";
 
 const Home = () => {
-  const { i18n } = useTranslation();
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
-  const [lang, setLang] = useState(i18n.language);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,12 +44,6 @@ const Home = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-    setLang(lng);
-    setIsMobileMenuOpen(false);
-  };
-
   const scrollToSection = (id) => {
     setIsMobileMenuOpen(false);
     const element = document.getElementById(id);
@@ -60,14 +54,16 @@ const Home = () => {
 
   return (
     <div style={styles.wrapper}>
+      <SEO
+        title={`${t("brandName")} | ${t("hero.title1")}`}
+        description={t("hero.desc")}
+      />
       <Navbar
         isScrolled={isScrolled}
         isMobileMenuOpen={isMobileMenuOpen}
         setIsMobileMenuOpen={setIsMobileMenuOpen}
         activeSection={activeSection}
         scrollToSection={scrollToSection}
-        changeLanguage={changeLanguage}
-        lang={lang}
       />
 
       <div id="home">

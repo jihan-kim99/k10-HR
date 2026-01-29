@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Globe, ChevronDown, CheckCircle, Menu, X } from "lucide-react";
 import { styles } from "../styles";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
+import { LANGUAGES_CONFIG } from '../constants';
 
 const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
+  const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [localScrolled, setLocalScrolled] = useState(false);
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
@@ -14,15 +16,7 @@ const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
   const scrolled =
     propIsScrolled !== undefined ? propIsScrolled : localScrolled;
 
-  const languages = [
-    { code: "zh", label: "Chinese", native: "中文" },
-    { code: "en", label: "English", native: "English" },
-    { code: "ko", label: "Korean", native: "한국어" },
-    { code: "ja", label: "Japanese", native: "日本語" },
-    { code: "mn", label: "Mongolian", native: "Монгол" },
-    { code: "vi", label: "Vietnamese", native: "Tiếng Việt" },
-    { code: "ru", label: "Russian", native: "Русский" },
-  ];
+  const languages = LANGUAGES_CONFIG;
 
   const currentLang =
     languages.find((l) => i18n.language?.startsWith(l.code)) || languages[0];
@@ -38,7 +32,20 @@ const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const selectLanguage = (lang) => {
-    i18n.changeLanguage(lang.code);
+    const currentPath = location.pathname;
+    let newPath = currentPath;
+
+    // Check if path starts with language code (e.g. /en, /en/, /en/consultation)
+    if (currentPath.match(/^\/[a-z]{2}(\/|$)/)) {
+       newPath = currentPath.replace(/^\/[a-z]{2}/, `/${lang.code}`);
+    } else {
+       // Fallback if somehow we are at a path without lang (unlikely with current routing)
+       // Ensure we don't double slash
+       const path = currentPath.startsWith('/') ? currentPath : '/' + currentPath;
+       newPath = `/${lang.code}${path === '/' ? '' : path}`;
+    }
+
+    navigate(newPath);
     setIsLangMenuOpen(false);
     setIsMenuOpen(false);
   };
@@ -235,7 +242,7 @@ const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
                 )}
               </div>
               <button
-                onClick={() => navigate("/consultation")}
+                onClick={() => navigate(`/${currentLang.code}/consultation`)}
                 style={{
                   backgroundColor: "#2563eb",
                   color: "white",
@@ -440,7 +447,7 @@ const Navbar = ({ isScrolled: propIsScrolled, scrollToSection }) => {
             </div>
           </div>
           <button
-            onClick={() => navigate("/consultation")}
+            onClick={() => navigate(`/${currentLang.code}/consultation`)}
             style={{
               marginTop: "auto",
               backgroundColor: "#1e3a8a",
