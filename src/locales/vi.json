@@ -217,7 +217,12 @@
       "email": "Địa chỉ email",
       "company": "Công ty",
       "message": "Cho chúng tôi biết về nhu cầu của bạn...",
-      "submit": "Gửi tin nhắn"
+      "submit": "Gửi tin nhắn",
+      "status": {
+        "sending": "Đang gửi...",
+        "success": "Đã gửi!",
+        "error": "Lỗi"
+      }
     },
     "info": {
       "heading": "Thông tin liên hệ",

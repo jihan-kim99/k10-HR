@@ -217,7 +217,12 @@
       "email": "Email Address",
       "company": "Company",
       "message": "Tell us about your needs...",
-      "submit": "Send Message"
+      "submit": "Send Message",
+      "status": {
+        "sending": "Sending...",
+        "success": "Sent!",
+        "error": "Error"
+      }
     },
     "info": {
       "heading": "Contact Information",
