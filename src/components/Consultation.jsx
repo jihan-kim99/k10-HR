@@ -42,7 +42,8 @@ const Consultation = () => {
     const formData = new FormData(event.target);
 
     // Use environment variable for the key
-    const apiKey = import.meta.env.FORM_KEY || import.meta.env.VITE_FORM_KEY;
+    // process.env.FORM_KEY is exposed via vite.config.js define
+    const apiKey = process.env.FORM_KEY || import.meta.env.VITE_FORM_KEY;
     formData.append("access_key", apiKey);
 
     try {
