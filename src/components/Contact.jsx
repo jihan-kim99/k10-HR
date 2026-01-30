@@ -1,9 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { styles } from "../styles";
 
 const Contact = () => {
   const { t } = useTranslation();
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult(t("contact.form.status.sending"));
+    const formData = new FormData(event.target);
+
+    // Use environment variable for the key
+    // process.env.FORM_KEY is exposed via vite.config.js define
+    const apiKey = process.env.FORM_KEY || import.meta.env.VITE_FORM_KEY;
+    formData.append("access_key", apiKey);
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setResult(t("contact.form.status.success"));
+        event.target.reset();
+      } else {
+        console.error("Form submission error", data);
+        setResult(t("contact.form.status.error"));
+      }
+    } catch (error) {
+      console.error("Form submission error", error);
+      setResult(t("contact.form.status.error"));
+    }
+  };
 
   return (
     <section
@@ -51,9 +83,7 @@ const Contact = () => {
                 {t("contact.form.heading")}
               </h4>
               <form
-                // action="https://formsubmit.co/jawoju919@naver.com"
-                action="https://formsubmit.co/info@k10hr.co.kr"
-                method="POST"
+                onSubmit={onSubmit}
                 style={{
                   display: "flex",
                   flexDirection: "column",
@@ -122,6 +152,23 @@ const Contact = () => {
                 >
                   {t("contact.form.submit")}
                 </button>
+                {result && (
+                  <span
+                    style={{
+                      textAlign: "center",
+                      fontSize: "1rem",
+                      fontWeight: "500",
+                      color:
+                        result === t("contact.form.status.success")
+                          ? "#16a34a"
+                          : result === t("contact.form.status.error")
+                          ? "#dc2626"
+                          : "#4b5563",
+                    }}
+                  >
+                    {result}
+                  </span>
+                )}
               </form>
             </div>
           </div>

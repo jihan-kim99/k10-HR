@@ -217,7 +217,12 @@
       "email": "电子邮箱",
       "company": "公司名称",
       "message": "告诉我们您的需求...",
-      "submit": "发送消息"
+      "submit": "发送消息",
+      "status": {
+        "sending": "发送中...",
+        "success": "已发送!",
+        "error": "错误"
+      }
     },
     "info": {
       "heading": "联系信息",

@@ -217,7 +217,12 @@
       "email": "メールアドレス",
       "company": "会社名",
       "message": "ご要望をお聞かせください...",
-      "submit": "メッセージを送信"
+      "submit": "メッセージを送信",
+      "status": {
+        "sending": "送信中...",
+        "success": "送信完了!",
+        "error": "エラー"
+      }
     },
     "info": {
       "heading": "連絡先情報",

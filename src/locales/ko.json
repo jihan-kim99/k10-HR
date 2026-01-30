@@ -217,7 +217,12 @@
       "email": "이메일 주소",
       "company": "회사명",
       "message": "필요하신 사항을 알려주세요...",
-      "submit": "메시지 보내기"
+      "submit": "메시지 보내기",
+      "status": {
+        "sending": "전송 중...",
+        "success": "전송 완료!",
+        "error": "오류"
+      }
     },
     "info": {
       "heading": "연락처 정보",

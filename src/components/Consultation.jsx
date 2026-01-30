@@ -13,6 +13,7 @@ const Consultation = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection] = useState("");
   const [selectedType, setSelectedType] = useState(null); // 'worker' | 'company' | null
+  const [result, setResult] = useState("");
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -25,12 +26,45 @@ const Consultation = () => {
 
   const handleSelection = (type) => {
     setSelectedType(type);
+    setResult("");
     window.scrollTo(0, 0);
   };
 
   const handleBack = () => {
     setSelectedType(null);
+    setResult("");
     window.scrollTo(0, 0);
+  };
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult(t("contact.form.status.sending"));
+    const formData = new FormData(event.target);
+
+    // Use environment variable for the key
+    // process.env.FORM_KEY is exposed via vite.config.js define
+    const apiKey = process.env.FORM_KEY || import.meta.env.VITE_FORM_KEY;
+    formData.append("access_key", apiKey);
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setResult(t("contact.form.status.success"));
+        event.target.reset();
+      } else {
+        console.error("Form submission error", data);
+        setResult(t("contact.form.status.error"));
+      }
+    } catch (error) {
+      console.error("Form submission error", error);
+      setResult(t("contact.form.status.error"));
+    }
   };
 
   const formStyle = {
@@ -295,10 +329,7 @@ const Consultation = () => {
                 {t("consultation.fillForm")}
               </p>
 
-              <form
-                action="https://formsubmit.co/info@k10hr.co.kr"
-                method="POST"
-              >
+              <form onSubmit={onSubmit}>
                 {/* Hidden field to identify form type */}
                 <input
                   type="hidden"
@@ -477,6 +508,24 @@ const Consultation = () => {
                 >
                   {t("consultation.form.submit")}
                 </button>
+                {result && (
+                  <div
+                    style={{
+                      textAlign: "center",
+                      marginTop: "16px",
+                      fontSize: "1rem",
+                      fontWeight: "500",
+                      color:
+                        result === t("contact.form.status.success")
+                          ? "#16a34a"
+                          : result === t("contact.form.status.error")
+                          ? "#dc2626"
+                          : "#4b5563",
+                    }}
+                  >
+                    {result}
+                  </div>
+                )}
               </form>
             </div>
           </div>
