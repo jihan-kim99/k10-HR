@@ -52,7 +52,7 @@ const Contact = () => {
               </h4>
               <form
                 // action="https://formsubmit.co/jawoju919@naver.com"
-                action="https://formsubmit.co/38dad5807af1f29e4fb219c59d23dcb2"
+                action="https://formsubmit.co/info@k10hr.co.kr"
                 method="POST"
                 style={{
                   display: "flex",
@@ -295,24 +295,48 @@ const Contact = () => {
               >
                 <div
                   className="hours-row"
-                  style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                  }}
                 >
-                  <span className="hours-label">{t("contact.hours.weekday")}</span>
-                  <span className="hours-time">{t("contact.hours.weekdayTime")}</span>
+                  <span className="hours-label">
+                    {t("contact.hours.weekday")}
+                  </span>
+                  <span className="hours-time">
+                    {t("contact.hours.weekdayTime")}
+                  </span>
                 </div>
                 <div
                   className="hours-row"
-                  style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                  }}
                 >
-                  <span className="hours-label">{t("contact.hours.saturday")}</span>
-                  <span className="hours-time">{t("contact.hours.saturdayTime")}</span>
+                  <span className="hours-label">
+                    {t("contact.hours.saturday")}
+                  </span>
+                  <span className="hours-time">
+                    {t("contact.hours.saturdayTime")}
+                  </span>
                 </div>
                 <div
                   className="hours-row"
-                  style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                  }}
                 >
-                  <span className="hours-label">{t("contact.hours.sunday")}</span>
-                  <span className="hours-time">{t("contact.hours.closed")}</span>
+                  <span className="hours-label">
+                    {t("contact.hours.sunday")}
+                  </span>
+                  <span className="hours-time">
+                    {t("contact.hours.closed")}
+                  </span>
                 </div>
               </div>
             </div>

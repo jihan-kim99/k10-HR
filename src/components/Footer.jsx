@@ -61,10 +61,10 @@ const Footer = () => {
             >
               <li>
                 <a
-                  href="mailto:jawoju919@naver.com"
+                  href="mailto:info@k10hr.co.kr"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  jawoju919@naver.com
+                  info@k10hr.co.kr
                 </a>
               </li>
               <li>

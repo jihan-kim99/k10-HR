@@ -296,7 +296,7 @@ const Consultation = () => {
               </p>
 
               <form
-                action="https://formsubmit.co/38dad5807af1f29e4fb219c59d23dcb2"
+                action="https://formsubmit.co/info@k10hr.co.kr"
                 method="POST"
               >
                 {/* Hidden field to identify form type */}
