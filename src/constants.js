@@ -10,4 +10,4 @@ export const LANGUAGES_CONFIG = [
 
 export const SUPPORTED_LANGUAGES = LANGUAGES_CONFIG.map((l) => l.code);
 export const DEFAULT_LANGUAGE = "en";
-export const SITE_URL = "http://k10hr.co.kr/";
+export const SITE_URL = "https://k10hr.co.kr";
