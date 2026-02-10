@@ -20,12 +20,13 @@ const SEO = ({ title, description }) => {
   };
 
   return (
-    <Helmet>
+    <>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <html lang={currentLang} />
+      <Helmet>
+        <html lang={currentLang} />
 
-      {SUPPORTED_LANGUAGES.map((lang) => (
+        {SUPPORTED_LANGUAGES.map((lang) => (
         <link
           key={lang}
           rel="alternate"
@@ -38,7 +39,8 @@ const SEO = ({ title, description }) => {
         hreflang="x-default"
         href={`${SITE_URL}${getPathForLang('en')}`}
       />
-    </Helmet>
+      </Helmet>
+    </>
   );
 };
 
