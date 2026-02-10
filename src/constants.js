@@ -8,6 +8,6 @@ export const LANGUAGES_CONFIG = [
   { code: "ru", label: "Russian", native: "Русский" },
 ];
 
-export const SUPPORTED_LANGUAGES = LANGUAGES_CONFIG.map(l => l.code);
-export const DEFAULT_LANGUAGE = 'en';
-export const SITE_URL = 'https://k10.kr';
+export const SUPPORTED_LANGUAGES = LANGUAGES_CONFIG.map((l) => l.code);
+export const DEFAULT_LANGUAGE = "en";
+export const SITE_URL = "http://k10hr.co.kr/";
